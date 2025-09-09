@@ -80,7 +80,7 @@ body {
 /* Collapsible toggle */
 #collapse-btn {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     left: 5px;
     z-index: 100;
     background: #007bff;
@@ -247,7 +247,7 @@ function renderLesson(){
         const bite=currentLesson.bites[biteIndex];
         const explanation=bite.explanations[currentLevel];
         const imgPath=`images/${currentSubject.short}/${currentCourse.short}/${bite.bite_id}.png`;
-        biteContainer.innerHTML=`<div class="bite"><strong>Bite ${biteIndex+1}:</strong><p>${explanation}</p><img src="${imgPath}" style="max-width:300px;margin-top:10px;" onerror="this.style.display='none'"></div>`;
+        biteContainer.innerHTML=`<div class="bite"><img src="${imgPath}" style="width:100%; max-width:300px;margin-top:10px;" onerror="this.style.display='none'"><strong>Bite ${biteIndex+1}:</strong><p>${explanation}</p></div>`;
         quizContainer.classList.add('hidden');
     } else {
         const quiz=currentLesson.quizzes[quizIndex];
