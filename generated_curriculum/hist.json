@@ -1,0 +1,829 @@
+{
+  "subjects": [
+    {
+      "name": "History",
+      "short": "hist",
+      "courses": [
+        {
+          "title": "Ancient Civilizations",
+          "short": "ancientciv",
+          "lessons": [
+            {
+              "lesson_id": "ancientciv_1",
+              "title": "Egypt and Mesopotamia",
+              "summary_ELI5": "Egypt and Mesopotamia were like the grandmas of civilizations. They built amazing things, like big pyramids and temples, because they had rivers like the Nile and Tigris to help them farm and grow food.",
+              "summary_ELI12": "Egypt and Mesopotamia were among the first big civilizations. Egypt had pharaohs and pyramids, while Mesopotamia, in modern Iraq, had cities like Babylon. Both used rivers like the Nile and Tigris for farming, which helped them grow strong.",
+              "summary_ELI16": "Egyptians and Mesopotamians were early civilizations with significant contributions to culture, architecture, and governance. Egypt is well-known for its pyramids and pharaohs, while Mesopotamia is recognized for developing one of the earliest writing systems, cuneiform. Their advancements were aided by fertile lands provided by the Nile, Tigris, and Euphrates rivers.",
+              "summary_ELI25": "As two of the earliest cradles of civilization, Egypt and Mesopotamia laid the foundations for complex societies through innovations in governance, written language, and monumental architecture. Egypt, with its centralized pharaonic leadership and iconic pyramidal structures, thrived along the Nile, while Mesopotamia developed city-states like Babylon and innovations such as cuneiform writing in the fertile crescent between the Tigris and Euphrates.",
+              "bites": [
+                {
+                  "bite_id": "ancientciv_1_b1",
+                  "explanations": {
+                    "ELI5": "People lived near big rivers because they helped them grow food.",
+                    "ELI12": "The Nile in Egypt and the Tigris in Mesopotamia were important because they provided water for crops, which helped these civilizations feed many people.",
+                    "ELI16": "The geographical reliance on rivers such as the Nile, Tigris, and Euphrates was due to their role in providing water resources necessary for agriculture, facilitating sustenance and growth of large populations.",
+                    "ELI25": "Rivers like the Nile in Egypt and the Tigris and Euphrates in Mesopotamia formed the backbone of these early societies, providing irrigation and fertile soil vital for agriculture, thereby supporting complex societal structures and population growth."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b2",
+                  "explanations": {
+                    "ELI5": "Egyptians built big pointy buildings called pyramids for their dead kings.",
+                    "ELI12": "The pyramids in Egypt were built as huge tombs for pharaohs, filled with treasures for their afterlife.",
+                    "ELI16": "The construction of pyramids was a monumental architectural achievement, serving as elaborate tombs to safeguard the bodies of pharaohs and ensure their significance even after death.",
+                    "ELI25": "Pyramids epitomize the architectural and engineering prowess of Ancient Egypt, functioning as monumental sepulchers designed to honor and protect the pharaohs in their journey to the afterlife, reflecting complex socio-religious beliefs."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b3",
+                  "explanations": {
+                    "ELI5": "In Mesopotamia, people wrote with squiggly lines on clay tablets.",
+                    "ELI12": "Mesopotamians invented one of the first writing systems, called cuneiform, which was used to record everything from taxes to stories.",
+                    "ELI16": "Cuneiform, developed by the Sumerians in Mesopotamia, is one of the earliest systems of writing, utilizing wedge-shaped symbols to record economic transactions, legal decrees, and literary texts.",
+                    "ELI25": "Cuneiform emerged from the Sumerian civilization around 3400 BCE in Mesopotamia as a pivotal advancement in communication, utilizing wedge-shaped marks inscribed on clay tablets that facilitated administrative efficiency and the preservation of literary and historical records."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b4",
+                  "explanations": {
+                    "ELI5": "Pharaohs were like kings who ruled Egypt.",
+                    "ELI12": "Pharaohs were powerful rulers in Egypt, believed to be gods on Earth, controlling everything in their lands.",
+                    "ELI16": "Pharaohs played a central role in Ancient Egyptian society, combining political and religious leadership, perceived as divine intermediaries between gods and humans, influencing both domestic and foreign policies.",
+                    "ELI25": "As divine rulers, pharaohs epitomized theocratic leadership within Ancient Egypt, embodying both secular authority and religious reverence, their governance entwined with ritualistic duties reinforcing the ideological framework of the state."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b5",
+                  "explanations": {
+                    "ELI5": "Mesopotamia had cities like Babylon with their own special stories and rules.",
+                    "ELI12": "Mesopotamia was home to great cities like Babylon and Ur, known for their complex social structures and the creation of some of the earliest laws.",
+                    "ELI16": "The city-states of Mesopotamia, such as Babylon and Ur, were hubs of political innovation and cultural exchange, contributing significantly to the development of organized communal life and codified legal systems.",
+                    "ELI25": "Mesopotamian city-states like Babylon played critical roles in antiquity; they were political, religious, and cultural centers where early forms of governance, urban planning, and codification of laws like the Code of Hammurabi were advanced, shaping future human civilizations."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b6",
+                  "explanations": {
+                    "ELI5": "Both places had gods that they believed helped them with life and farming.",
+                    "ELI12": "Egyptians and Mesopotamians worshipped many gods, who they believed controlled nature and their lives, influencing everything from harvests to health.",
+                    "ELI16": "Religion in Egypt and Mesopotamia was polytheistic, with deities like Ra, the sun god, and Ea, the water god, offering explanations for natural phenomena and human experiences, deeply intertwined with cultural practices.",
+                    "ELI25": "The polytheistic belief systems in Egypt and Mesopotamia provided comprehensive frameworks for understanding the world, with an elaborate pantheon influencing agricultural cycles, human destiny, and sociopolitical structures, manifesting through temples, rituals, and theological doctrines."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_1_b7",
+                  "explanations": {
+                    "ELI5": "The people in these places were good at math and making buildings.",
+                    "ELI12": "Advanced in mathematics and architecture, both civilizations built impressive structures, like Egypt’s pyramids and Mesopotamia’s ziggurats.",
+                    "ELI16": "Egyptian and Mesopotamian advancements in mathematics underpinned their architectural feats, seen in Egypt's pyramids and Mesopotamia's ziggurats, reflecting advanced understanding of geometry and engineering principles.",
+                    "ELI25": "The computational achievements of the Egyptians and Mesopotamians facilitated monumental architectural projects such as pyramids and ziggurats, showcasing profound capabilities in mathematics, geometry, and sophisticated urban planning techniques necessary for constructing complex edifices."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "ancientciv_1_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the Egyptians build that were big and pointy?",
+                    "ELI12": "What was the purpose of the pyramids in Ancient Egypt?",
+                    "ELI16": "How did pyramids represent the religious beliefs of Ancient Egypt?",
+                    "ELI25": "In what ways did the pyramidal structures of Ancient Egypt reflect the socio-religious ideologies of the period?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Caves",
+                      "Pyramids",
+                      "Castles"
+                    ],
+                    "ELI12": [
+                      "To serve as homes",
+                      "To honor leaders in death",
+                      "To store grain"
+                    ],
+                    "ELI16": [
+                      "They were homes for peasants",
+                      "They were tombs for pharaohs reflecting divine kingship",
+                      "They were markets"
+                    ],
+                    "ELI25": [
+                      "As architectural representations of the pharaohs’ divine status ensuring safe passage to the afterlife",
+                      "As simple shelters for commoners",
+                      "As mere commemorative structures without deeper religious significance"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_1_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What is cuneiform?",
+                    "ELI12": "What was the significance of cuneiform in Mesopotamia?",
+                    "ELI16": "How did cuneiform revolutionize communication in Mesopotamia?",
+                    "ELI25": "Discuss the evolution and impact of cuneiform script in the context of Mesopotamian society."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A writing style",
+                      "A type of jewelry",
+                      "A kind of food"
+                    ],
+                    "ELI12": [
+                      "It was a dance",
+                      "It was a tool for recording important information",
+                      "It was a musical instrument"
+                    ],
+                    "ELI16": [
+                      "Cuneiform was an art form",
+                      "Cuneiform allowed for systematic documentation and administration",
+                      "Cuneiform was a type of clothing"
+                    ],
+                    "ELI25": [
+                      "Cuneiform originated as pictograms evolving into a complex syllabary vital for administrative, economic, and literary purposes",
+                      "It was predominantly used for artistic displays only",
+                      "It offered minimal influence on administrative processes"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_1_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did rivers like the Nile help people do?",
+                    "ELI12": "Why were rivers like the Tigris and Euphrates important to early civilizations?",
+                    "ELI16": "How did the Nile River influence the agricultural practices of Ancient Egypt?",
+                    "ELI25": "Analyze the strategic importance of the Tigris and Euphrates rivers in the formation and sustainability of Mesopotamian city-states."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Swim",
+                      "Grow crops",
+                      "Dance"
+                    ],
+                    "ELI12": [
+                      "To build boats",
+                      "To supply water for agriculture",
+                      "To fight battles"
+                    ],
+                    "ELI16": [
+                      "The rivers were only for fishing",
+                      "The Nile's predictable flooding enriched soils allowing for efficient agriculture",
+                      "The rivers were barriers and used for defense only"
+                    ],
+                    "ELI25": [
+                      "Provided vital irrigation systems necessary for agricultural production and delimited territorial boundaries",
+                      "Were solely navigational routes",
+                      "Mostly served decorative purposes in settlements"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_1_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who were pharaohs?",
+                    "ELI12": "What role did pharaohs play in Ancient Egypt?",
+                    "ELI16": "In what ways did pharaohs embody both political and religious power in Ancient Egypt?",
+                    "ELI25": "Examine the dual role of pharaohs as both divine and political entities within Ancient Egyptian society."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "People who make food",
+                      "Rulers of Egypt",
+                      "Animals"
+                    ],
+                    "ELI12": [
+                      "They were scribes",
+                      "They were both political leaders and religious figures",
+                      "They were common workers"
+                    ],
+                    "ELI16": [
+                      "Pharaohs were local farmers",
+                      "Pharaohs were regarded as living gods, integrating governance with religious duties",
+                      "Pharaohs were purely ceremonial leaders"
+                    ],
+                    "ELI25": [
+                      "Pharaohs were seen as divine intermediaries, ensuring cosmic order and presiding over administrative decision-making",
+                      "Pharaohs held only religious authority without political power",
+                      "Pharaohs only led military campaigns"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_1_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did both Egypt and Mesopotamia use to explain their world?",
+                    "ELI12": "How did religion affect the daily lives of Egyptians and Mesopotamians?",
+                    "ELI16": "What was the impact of polytheistic beliefs on social and cultural structures in Ancient Egypt and Mesopotamia?",
+                    "ELI25": "Discuss the integration of religious beliefs with socio-political structures in Ancient Egypt and Mesopotamia."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Stories",
+                      "Gods",
+                      "Books"
+                    ],
+                    "ELI12": [
+                      "Religion dictated who they could marry",
+                      "Religious beliefs were integral, dictating festivals, laws, and leadership roles",
+                      "Religion had no effect on their society"
+                    ],
+                    "ELI16": [
+                      "Religion was only a personal belief",
+                      "Polytheistic beliefs reinforced social hierarchies and influenced arts and laws",
+                      "Religion was separate from social practices"
+                    ],
+                    "ELI25": [
+                      "Religious systems reinforced and legitimized leadership, laws, and artistic expressions, reflecting and shaping cultural identity",
+                      "They had no notable influence on governance or social practices",
+                      "Deities were only mythological representations without societal roles"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Egypt and Mesopotamia were like two amazing grandmas of history, teaching us how to build awesome things with the help of rivers and how important stories and leaders are.",
+                "ELI12": "The civilizations of Egypt and Mesopotamia are foundational to human history, showcasing early achievements in architecture, writing, and leadership, deeply intertwined with their religious and cultural practices.",
+                "ELI16": "The legacies of these ancient civilizations include key developments in governance, monumental architecture, and religious thought, demonstrating how early societies structured themselves around vital geographical resources and evolving cultural ideologies.",
+                "ELI25": "Egypt and Mesopotamia bequeathed pivotal advancements to successive civilizations, from architecturally ambitious projects and administrative systems enabled by written language to cohesive ideological frameworks that intricately bonded political power with religious tenets."
+              }
+            },
+            {
+              "lesson_id": "ancientciv_2",
+              "title": "Indus Valley Civilization",
+              "summary_ELI5": "The Indus Valley Civilization was a very old group of people who lived a long time ago near a big river. They built big cities and had lots of cool stuff.",
+              "summary_ELI12": "The Indus Valley Civilization was one of the world's earliest urban civilizations, thriving around the Indus River. They had advanced city planning, impressive architecture, and trade systems.",
+              "summary_ELI16": "The Indus Valley Civilization, dating back to around 2600 BCE, is notable for its advanced urban planning and architecture, showcasing a highly sophisticated society with a strong emphasis on trade, technology, and social organization.",
+              "summary_ELI25": "The Indus Valley Civilization (circa 2600-1900 BCE) stands as a testament to early human urban planning and architectural prowess. This civilization, spread across modern-day Pakistan and northwest India, featured complex city layouts, advanced civil engineering, and robust trade networks with neighboring cultures.",
+              "bites": [
+                {
+                  "bite_id": "ancientciv_2_b1",
+                  "explanations": {
+                    "ELI5": "The Indus people lived near a river called the Indus River, which helped them grow food and get water.",
+                    "ELI12": "The Indus Valley Civilization developed around the Indus River, which provided fertile soil for farming and was crucial for their survival.",
+                    "ELI16": "The civilization thrived in the fertile plains of the Indus River, where ample water supply aided agriculture, supporting a large population.",
+                    "ELI25": "Proximity to the Indus River was vital for the Indus Valley Civilization, facilitating agrarian prosperity and sustaining dense urban populations through irrigation and fertile alluvial soils."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b2",
+                  "explanations": {
+                    "ELI5": "They made cities with roads and houses that were very neat and planned out.",
+                    "ELI12": "Indus cities like Harappa and Mohenjo-Daro were well-planned with streets in a grid-like pattern and standardized bricks for houses.",
+                    "ELI16": "The urban planning in Indus cities reflected a high degree of social organization with grid layouts, standardized construction materials, and advanced drainage systems.",
+                    "ELI25": "Indus cities exemplified early examples of urban planning with rectilinear grids, standardized fired bricks, and sophisticated drainage systems, underscoring its societal complexity and bureaucratic oversight."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b3",
+                  "explanations": {
+                    "ELI5": "They had no kings, but everyone worked together to make sure things ran smoothly.",
+                    "ELI12": "Unlike other ancient civilizations, the Indus Valley didn't have palaces or obvious royal elites; their society seemed to be more egalitarian.",
+                    "ELI16": "The political organization of the Indus Valley Civilization is enigmatic, with no discernible central authority like a monarchy, leading many to speculate it operated on a somewhat egalitarian or collective governance model.",
+                    "ELI25": "The absence of grand palaces or elite burials suggests the Indus Valley Civilization lacked a hierarchical state or centralized monarchy, proposing instead a possibly egalitarian or decentralized social structure."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b4",
+                  "explanations": {
+                    "ELI5": "They made lots of stuff, like pots and crafts, and traded them with others.",
+                    "ELI12": "The Indus people were skilled craftsmen, creating pottery and jewelry, and trading these goods with other cultures like Mesopotamia.",
+                    "ELI16": "Indus artisans excelled in bead-making, ceramics, and metallurgy, facilitating trade with distant regions, indicating a vibrant economy and extensive trade networks.",
+                    "ELI25": "Indus craftsmanship in beadwork, ceramics, metallurgy, and textiles illustrates a robust economy bolstered by trade with Mesopotamia and Central Asia, as evidenced by the widespread distribution of Indus artifacts."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b5",
+                  "explanations": {
+                    "ELI5": "They used symbols to write things down, but we can't read them yet.",
+                    "ELI12": "The Indus script remains undeciphered; it used symbols that were carved on seals and pottery, hinting at a complex communication system.",
+                    "ELI16": "The undeciphered Indus script consisted of about 400 symbols, primarily found on seals, which likely served administrative or ritualistic purposes.",
+                    "ELI25": "The Indus script, characterized by brief inscriptions on seals and pottery, remains undeciphered, posing challenges to understanding the administrative, economic, or ritualistic nuances of the Indus Civilization."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b6",
+                  "explanations": {
+                    "ELI5": "We don't know exactly what happened to them, but the cities were abandoned.",
+                    "ELI12": "Around 1900 BCE, many Indus cities were abandoned, possibly due to environmental changes or natural disasters.",
+                    "ELI16": "The decline of the Indus Valley Civilization is attributed to possible climatic shifts, tectonic activity altering river courses, or economic factors that led to urban decline.",
+                    "ELI25": "Theories regarding the Indus Civilization's decline include climatic upheavals and tectonic shifts affecting river systems, along with potential socio-economic disruptions that precipitated urban abandonment and cultural dispersal."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_2_b7",
+                  "explanations": {
+                    "ELI5": "People from the Indus Valley are like our very old ancestors.",
+                    "ELI12": "The cultural and technological advancements of the Indus Valley reflect early human creativity and ingenuity that laid groundwork for future societies.",
+                    "ELI16": "The technological and cultural innovations of the Indus Valley Civilization represent a significant foundation upon which many subsequent civilizations built, highlighting the early complexities of human society.",
+                    "ELI25": "The Indus Valley's contributions to urban planning, craftsmanship, and possibly proto-writing systems underscore its role as a cornerstone in the tapestry of human development, influencing successor societies across South Asia."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "ancientciv_2_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What river was important for the Indus people?",
+                    "ELI12": "Which river system was central to the Indus Valley Civilization's development?",
+                    "ELI16": "Which river's alluvial plains supported the Indus Valley Civilization's agrarian economies?",
+                    "ELI25": "Which river was the lifeline of the Indus Valley Civilization, essential for its agrarian sustenance and urban growth?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Nile River",
+                      "Amazon River",
+                      "Indus River"
+                    ],
+                    "ELI12": [
+                      "Ganges River",
+                      "Indus River",
+                      "Yangtze River"
+                    ],
+                    "ELI16": [
+                      "Tigris-Euphrates",
+                      "Indus River",
+                      "Yellow River"
+                    ],
+                    "ELI25": [
+                      "Mekong River",
+                      "Indus River",
+                      "Danube River"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_2_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What were their cities like?",
+                    "ELI12": "How were the streets in Indus cities usually arranged?",
+                    "ELI16": "What urban planning feature is most associated with the Indus cities?",
+                    "ELI25": "Indus cities are renowned for which of these urban planning attributes?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Messy with no order",
+                      "Neat and organized",
+                      "On mountains"
+                    ],
+                    "ELI12": [
+                      "Circular roads",
+                      "Curved streets",
+                      "Grid patterns"
+                    ],
+                    "ELI16": [
+                      "Random layout",
+                      "Grid patterns",
+                      "Concentric circles"
+                    ],
+                    "ELI25": [
+                      "Organic growth",
+                      "Rectilinear grids",
+                      "Radial symmetry"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 2,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_2_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What kinds of things did Indus people make and trade?",
+                    "ELI12": "What were some of the crafts and goods produced by the Indus people?",
+                    "ELI16": "Which of these crafts were central to the Indus Valley's economy and trade?",
+                    "ELI25": "Which industries underscore the economic and trade prowess of the Indus Valley Civilization?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Nothing special",
+                      "Pots and beads",
+                      "Only food"
+                    ],
+                    "ELI12": [
+                      "Furniture and sculptures",
+                      "Pottery and jewelry",
+                      "Books and paintings"
+                    ],
+                    "ELI16": [
+                      "Beading and metallurgy",
+                      "Woodwork and coal mining",
+                      "Agriculture and textiles"
+                    ],
+                    "ELI25": [
+                      "Textiles and spices",
+                      "Metallurgy and ceramics",
+                      "Glass-making and wood carving"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_2_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Did Indus people have kings?",
+                    "ELI12": "Did the Indus Valley Civilization have a visible ruling class like kings?",
+                    "ELI16": "What type of political structures characterized the Indus civilization?",
+                    "ELI25": "The absence of monumental palaces in the Indus region suggests what about their governance?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Yes, many kings",
+                      "No, they worked together",
+                      "Only queens"
+                    ],
+                    "ELI12": [
+                      "Yes, with palaces",
+                      "No clear rulers",
+                      "Yes, but not many"
+                    ],
+                    "ELI16": [
+                      "Hierarchical monarchy",
+                      "Decentralized governance",
+                      "Aligned oligarchy"
+                    ],
+                    "ELI25": [
+                      "Centralized theocracy",
+                      "Egalitarian or decentralized",
+                      "Feudal kingdoms"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_2_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What happened to the Indus cities?",
+                    "ELI12": "Why might the Indus Valley cities have been abandoned?",
+                    "ELI16": "What are some theories for the decline of the Indus cities?",
+                    "ELI25": "Which factors are hypothesized to have contributed to the decline of the Indus Valley Civilization?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "They got bigger",
+                      "They disappeared",
+                      "They moved to space"
+                    ],
+                    "ELI12": [
+                      "Overpopulation",
+                      "Environmental changes",
+                      "Better cities nearby"
+                    ],
+                    "ELI16": [
+                      "Foreign invasion",
+                      "Climatic and tectonic changes",
+                      "Self-sufficient ruralization"
+                    ],
+                    "ELI25": [
+                      "Plague outbreaks",
+                      "External aggression",
+                      "Tectonic activity and climatic shifts"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 2
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "The Indus people were very smart and made lots of cool things a long time ago!",
+                "ELI12": "The Indus Valley built advanced cities and traded widely, but mysteriously the civilization ended.",
+                "ELI16": "The Indus civilization was a beacon of urban sophistication and trade, but eventually declined possibly due to environmental changes.",
+                "ELI25": "The Indus Valley Civilization represents a pinnacle of early human achievement in urban planning and economy, though its decline remains a subject for extensive research in historical climatology and anthropology."
+              }
+            },
+            {
+              "lesson_id": "ancientciv_3",
+              "title": "Ancient China: Shang & Zhou Dynasties",
+              "summary_ELI5": "In China, long ago, there were two important groups called the Shang and Zhou. They helped build China with cool inventions and made rules.",
+              "summary_ELI12": "The Shang and Zhou Dynasties were two major ancient Chinese societies. Shang was known for its writing and art, while Zhou expanded into new lands and developed philosophies that shaped Chinese culture.",
+              "summary_ELI16": "Ancient China's Shang and Zhou Dynasties laid the foundation for Chinese civilization. The Shang introduced writing and bronze work, while the Zhou expanded territorial control and contributed philosophical innovations like Confucianism and Daoism.",
+              "summary_ELI25": "The Shang and Zhou Dynasties were pivotal to China's early state formation. The Shang Dynasty is noted for its urbanization, advancements in metallurgy, and proto-writing system. The Zhou Dynasty, following the Shang, introduced significant political innovations, such as the Mandate of Heaven, and saw the flourishing of Confucian and Daoist philosophies.",
+              "bites": [
+                {
+                  "bite_id": "ancientciv_3_b1",
+                  "explanations": {
+                    "ELI5": "The Shang Dynasty was like the first kings of China.",
+                    "ELI12": "The Shang Dynasty was one of China's first ruling families, known for its tools and cities.",
+                    "ELI16": "The Shang Dynasty, around 1600-1046 BCE, was notable for advancements in writing, bronze work, and urban development.",
+                    "ELI25": "From approximately 1600 to 1046 BCE, the Shang Dynasty established early Chinese statehood through bronze craftsmanship, a complex feudal society, and the earliest known form of Chinese writing: oracle bones."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b2",
+                  "explanations": {
+                    "ELI5": "They wrote on bones to tell stories.",
+                    "ELI12": "Shang people wrote on animal bones and turtle shells to talk to their gods, using early Chinese writing.",
+                    "ELI16": "Oracle bones were used by Shang priests to predict the future, serving as an early form of Chinese script.",
+                    "ELI25": "The Shang engaged in divination practices using oracle bones, where inscribed symbols and questions were carved to communicate with ancestors or deities, laying groundwork for Chinese writing."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b3",
+                  "explanations": {
+                    "ELI5": "The Zhou came after the Shang and made bigger lands.",
+                    "ELI12": "The Zhou Dynasty took over from the Shang and made the kingdom bigger, setting up rules that lasted a long time.",
+                    "ELI16": "The Zhou Dynasty, beginning around 1046 BCE, expanded China's territories and influenced cultural and political practices, lasting over 800 years.",
+                    "ELI25": "The Zhou Dynasty, succeeding the Shang, expanded controlled territories significantly and offered political innovations such as the Mandate of Heaven, impacting Chinese governance and philosophy profoundly and enduring until 256 BCE."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b4",
+                  "explanations": {
+                    "ELI5": "They believed kings got power from the sky.",
+                    "ELI12": "Zhou leaders thought that heaven gave them the right to rule, known as the Mandate of Heaven.",
+                    "ELI16": "The Mandate of Heaven was the Zhou's concept that royalty was divinely supported, and failure of moral rule could justify overthrow.",
+                    "ELI25": "The Mandate of Heaven doctrine posited that the divine grant of royal authority required moral leadership, thus legitimating the Zhou's rule and future dynastic transitions based on moral and environmental factors."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b5",
+                  "explanations": {
+                    "ELI5": "They started big ideas like Confucianism.",
+                    "ELI12": "Philosophies like Confucianism emerged during the Zhou, focusing on family, respect, and government.",
+                    "ELI16": "Zhou Dynasty's philosophical developments included Confucianism, focusing on ethics and social harmony, and Daoism, emphasizing natural order.",
+                    "ELI25": "The Zhou era saw the rise of Confucianism, advocating moral governance and hierarchical ethics, and Daoism, promoting harmony with nature, both shaping Chinese cultural and intellectual thought profoundly."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b6",
+                  "explanations": {
+                    "ELI5": "They used metal to make strong things like bronze.",
+                    "ELI12": "The Shang and Zhou used bronze metal to create tools, weapons, and art, which were very important in their daily lives.",
+                    "ELI16": "Bronze metallurgy in Shang and Zhou dynasties allowed superior tools, weaponry, and ritual objects, influencing sociopolitical dynamics.",
+                    "ELI25": "Both Shang and Zhou dynasties are noted for sophisticated bronze casting, producing vessels for rituals and military implements, essential for socio-political organization and ceremonial activities."
+                  }
+                },
+                {
+                  "bite_id": "ancientciv_3_b7",
+                  "explanations": {
+                    "ELI5": "Even though they're old, they helped start modern China.",
+                    "ELI12": "Though ancient, the Shang and Zhou dynasties laid the groundwork for many of China's traditions and infrastructures that we see today.",
+                    "ELI16": "The cultural practices, social structures, and innovations of Shang and Zhou Dynasties underpin much of the traditional and modern Chinese societal norms.",
+                    "ELI25": "Despite their ancient origins, the sociopolitical institutions and philosophical thought developed during the Shang and Zhou dynasties are integral to the sustained continuity observed in Chinese civilization and its subsequent developments."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "ancientciv_3_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the Shang people write on?",
+                    "ELI12": "What materials were used for writing by the Shang in divination practices?",
+                    "ELI16": "Oracle bones were used by the Shang Dynasty for what purpose?",
+                    "ELI25": "Define the function of oracle bones in Shang Dynasty's religious practices."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Paper",
+                      "Bones",
+                      "Wood"
+                    ],
+                    "ELI12": [
+                      "Clay tablets",
+                      "Animal bones and turtle shells",
+                      "Stone slabs"
+                    ],
+                    "ELI16": [
+                      "Tax records",
+                      "Religious ceremonies",
+                      "Divination and future predictions"
+                    ],
+                    "ELI25": [
+                      "Recording harvests",
+                      "Communicating with deities and ancestors via inscriptions",
+                      "Tracking population data"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 2,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_3_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who ruled after the Shang?",
+                    "ELI12": "Which dynasty succeeded the Shang and established the Mandate of Heaven?",
+                    "ELI16": "What contributed to the Zhou Dynasty's ability to justify their rule via divine approval?",
+                    "ELI25": "Explain the Mandate of Heaven and its role in Zhou political legitimacy."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Zhou",
+                      "Ming",
+                      "Qin"
+                    ],
+                    "ELI12": [
+                      "Qin",
+                      "Zhou",
+                      "Han"
+                    ],
+                    "ELI16": [
+                      "Proclamation by the king",
+                      "Acquiring divine consent allowing societal uprisings in case of failed governance",
+                      "Military conquest"
+                    ],
+                    "ELI25": [
+                      "It permitted the despotic rule without challenge",
+                      "It was a divine endorsement contingent upon moral governance",
+                      "It negated any responsibility toward the ruled populations"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_3_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What metal did they use?",
+                    "ELI12": "What key metal used by Shang and Zhou helped advance their society?",
+                    "ELI16": "Which material's use during the Shang and Zhou periods propelled both technological and artistic developments?",
+                    "ELI25": "Discuss the significance of bronze metallurgy in shaping socio-political structures during the Shang and Zhou periods."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Gold",
+                      "Iron",
+                      "Bronze"
+                    ],
+                    "ELI12": [
+                      "Iron",
+                      "Bronze",
+                      "Copper"
+                    ],
+                    "ELI16": [
+                      "Copper",
+                      "Bronze",
+                      "Iron"
+                    ],
+                    "ELI25": [
+                      "It enabled mass production of writing tools",
+                      "It facilitated complex state rituals and warfare capabilities",
+                      "It allowed the construction of vast infrastructure projects"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_3_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What big idea started in the Zhou times?",
+                    "ELI12": "Which philosophies began during the Zhou Dynasty?",
+                    "ELI16": "During the Zhou period, which two philosophies emerged that significantly impacted Chinese culture?",
+                    "ELI25": "Identify and discuss the principal philosophical systems that arose during the Zhou era and their impact."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Confucianism",
+                      "Magic",
+                      "Stories"
+                    ],
+                    "ELI12": [
+                      "Confucianism and Daoism",
+                      "Buddhism and Islam",
+                      "Shamanism and Animism"
+                    ],
+                    "ELI16": [
+                      "Legalism and Daoism",
+                      "Confucianism and Daoism",
+                      "Hellenism and Stoicism"
+                    ],
+                    "ELI25": [
+                      "Confucianism accentuating moral statecraft and Daoism advocating for natural harmony, both influencing governance and personal conduct",
+                      "Buddhism and Hinduism shaping the social castes and afterlife perceptions",
+                      "Monotheism and secularism, transforming religious practices to worldly focuses"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 0,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancientciv_3_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Are the Shang and Zhou part of the old China story?",
+                    "ELI12": "Do the Shang and Zhou dynasties contribute to China's history?",
+                    "ELI16": "How have the Shang and Zhou Dynasties influenced the development of China?",
+                    "ELI25": "Analyze the role of the Shang and Zhou dynasties in the continuity and transformation of Chinese civilization."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Yes",
+                      "No",
+                      "Maybe"
+                    ],
+                    "ELI12": [
+                      "Yes, they are key components",
+                      "No, they are irrelevant",
+                      "Only Zhou is important"
+                    ],
+                    "ELI16": [
+                      "Both contributed foundational elements to Chinese culture and governance",
+                      "Neither had any lasting impact",
+                      "Only Shang concerning art forms"
+                    ],
+                    "ELI25": [
+                      "They provide a clear precedent for dynastic and political development, reflecting early Chinese societal structures",
+                      "Their influence was negligible compared to later dynasties",
+                      "They solely impacted military strategies with little cultural influence"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Shang and Zhou were old groups in China who made things like writing and cool stuff with metal.",
+                "ELI12": "The Shang and Zhou were early Chinese societies that shaped writing, metalwork, and set up philosophies. They are important to understanding China's history.",
+                "ELI16": "As foundational dynasties, the Shang and Zhou influenced various facets of Chinese culture, including governance structures, philosophical thought, and technological advances.",
+                "ELI25": "The Shang and Zhou dynasties are instrumental in China's early history, providing crucial advancements in statecraft, cultural practices, and religious-philosophical matters, setting a precedent for future Chinese civilization."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+    "subjects": [
+        {
+            "name": "Philosophy",
+            "short": "phil",
+            "courses": [
+                {
+                    "title": "Ancient Philosophy",
+                    "short": "ancient",
+                    "lessons": [
+                        "Plato and the World of Forms",
+                        "Aristotle's Ethics and Virtue",
+                        "Stoicism and the Hellenistic Schools",
+                        "Epicurean Philosophy",
+                        "Socrates and the Socratic Method"
+                    ]
+                },
+                {
+                    "title": "Medieval Philosophy",
+                    "short": "medieval",
+                    "lessons": [
+                        "Introduction to Scholasticism",
+                        "Augustine and Christian Philosophy",
+                        "Aquinas and Natural Theology",
+                        "Avicenna and Islamic Philosophy",
+                        "Ockham and Nominalism"
+                    ]
+                },
+                {
+                    "title": "Modern Philosophy",
+                    "short": "modern",
+                    "lessons": [
+                        "Descartes' Method of Doubt",
+                        "Spinoza and Rationalism",
+                        "Leibniz and Monadology",
+                        "Locke and Empiricism",
+                        "Hume and Skepticism"
+                    ]
+                },
+                {
+                    "title": "Existentialism",
+                    "short": "exist",
+                    "lessons": [
+                        "Introduction to Existentialism",
+                        "Kierkegaard and Subjectivity",
+                        "Nietzsche and the Will to Power",
+                        "Sartre and Freedom",
+                        "Heidegger and Being"
+                    ]
+                },
+                {
+                    "title": "Political Philosophy",
+                    "short": "political",
+                    "lessons": [
+                        "Social Contract Theory",
+                        "Hobbes and Leviathan",
+                        "Locke on Government",
+                        "Rousseau and General Will",
+                        "Marx and Critique of Capitalism"
+                    ]
+                },
+                {
+                    "title": "Philosophy of Mind",
+                    "short": "mind",
+                    "lessons": [
+                        "Dualism vs. Physicalism",
+                        "Consciousness and Qualia",
+                        "Functionalism and AI",
+                        "Identity Theory and Reductionism",
+                        "Philosophy of Perception"
+                    ]
+                },
+                {
+                    "title": "Ethics & Moral Philosophy",
+                    "short": "ethics",
+                    "lessons": [
+                        "Introduction to Ethics",
+                        "Utilitarianism and Consequences",
+                        "Kantian Ethics",
+                        "Virtue Ethics and Character",
+                        "Contemporary Moral Issues"
+                    ]
+                },
+                {
+                    "title": "Epistemology",
+                    "short": "epist",
+                    "lessons": [
+                        "Theory of Knowledge",
+                        "Rationalism vs. Empiricism",
+                        "Skepticism and Certainty",
+                        "Justified True Belief",
+                        "Contemporary Epistemology"
+                    ]
+                },
+                {
+                    "title": "Logic & Reasoning",
+                    "short": "logic",
+                    "lessons": [
+                        "Basics of Logical Thinking",
+                        "Propositional Logic",
+                        "Predicate Logic",
+                        "Fallacies and Critical Thinking",
+                        "Formal vs. Informal Reasoning"
+                    ]
+                },
+                {
+                    "title": "Metaphysics",
+                    "short": "metaph",
+                    "lessons": [
+                        "Reality and Being",
+                        "Substance and Essence",
+                        "Time and Space",
+                        "Causality and Determinism",
+                        "Possible Worlds and Modalities"
+                    ]
+                },
+                {
+                    "title": "Aesthetics",
+                    "short": "aesth",
+                    "lessons": [
+                        "Philosophy of Art",
+                        "Beauty and Taste",
+                        "Art and Emotion",
+                        "Aesthetic Experience",
+                        "Contemporary Art Theory"
+                    ]
+                },
+                {
+                    "title": "Philosophy of Science",
+                    "short": "sciphil",
+                    "lessons": [
+                        "Scientific Method in Philosophy",
+                        "Falsifiability and Popper",
+                        "Theory and Observation",
+                        "Reductionism vs. Holism",
+                        "Science and Ethics"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mathematics",
+            "short": "math",
+            "courses": [
+                {
+                    "title": "Algebra",
+                    "short": "algebra",
+                    "lessons": [
+                        "Linear Equations",
+                        "Quadratic Equations",
+                        "Polynomials",
+                        "Inequalities",
+                        "Functions and Graphs"
+                    ]
+                },
+                {
+                    "title": "Geometry",
+                    "short": "geometry",
+                    "lessons": [
+                        "Triangles and Circles",
+                        "Polygons and Quadrilaterals",
+                        "Angles and Parallel Lines",
+                        "Coordinate Geometry",
+                        "Transformations and Symmetry"
+                    ]
+                },
+                {
+                    "title": "Trigonometry",
+                    "short": "trig",
+                    "lessons": [
+                        "Sine, Cosine, Tangent",
+                        "Trigonometric Identities",
+                        "Inverse Trigonometric Functions",
+                        "Trigonometric Equations",
+                        "Applications in Geometry"
+                    ]
+                },
+                {
+                    "title": "Calculus I",
+                    "short": "calc1",
+                    "lessons": [
+                        "Limits and Derivatives",
+                        "Differentiation Rules",
+                        "Applications of Derivatives",
+                        "Curve Sketching",
+                        "Optimization Problems"
+                    ]
+                },
+                {
+                    "title": "Calculus II",
+                    "short": "calc2",
+                    "lessons": [
+                        "Integration Basics",
+                        "Techniques of Integration",
+                        "Definite Integrals",
+                        "Applications of Integration",
+                        "Improper Integrals"
+                    ]
+                },
+                {
+                    "title": "Differential Equations",
+                    "short": "de",
+                    "lessons": [
+                        "First Order DEs",
+                        "Second Order Linear DEs",
+                        "Systems of DEs",
+                        "Laplace Transforms",
+                        "Applications in Physics and Engineering"
+                    ]
+                },
+                {
+                    "title": "Linear Algebra",
+                    "short": "linear",
+                    "lessons": [
+                        "Vectors and Matrices",
+                        "Matrix Operations",
+                        "Determinants and Rank",
+                        "Eigenvalues and Eigenvectors",
+                        "Linear Transformations"
+                    ]
+                },
+                {
+                    "title": "Probability Theory",
+                    "short": "prob",
+                    "lessons": [
+                        "Basic Probability",
+                        "Conditional Probability",
+                        "Discrete Random Variables",
+                        "Continuous Random Variables",
+                        "Probability Distributions"
+                    ]
+                },
+                {
+                    "title": "Statistics",
+                    "short": "stats",
+                    "lessons": [
+                        "Descriptive Statistics",
+                        "Inferential Statistics",
+                        "Sampling Methods",
+                        "Hypothesis Testing",
+                        "Regression and Correlation"
+                    ]
+                },
+                {
+                    "title": "Number Theory",
+                    "short": "numtheory",
+                    "lessons": [
+                        "Prime Numbers",
+                        "Divisibility Rules",
+                        "Modular Arithmetic",
+                        "Diophantine Equations",
+                        "Number-Theoretic Functions"
+                    ]
+                },
+                {
+                    "title": "Discrete Mathematics",
+                    "short": "discrete",
+                    "lessons": [
+                        "Logic and Sets",
+                        "Combinatorics",
+                        "Graph Theory",
+                        "Relations and Functions",
+                        "Boolean Algebra"
+                    ]
+                },
+                {
+                    "title": "Mathematical Logic",
+                    "short": "mathlogic",
+                    "lessons": [
+                        "Propositional Logic",
+                        "Predicate Logic",
+                        "Proof Techniques",
+                        "Formal Systems",
+                        "Decidability and Completeness"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Programming / Computer Science",
+            "short": "cs",
+            "courses": [
+                {
+                    "title": "Introduction to Programming",
+                    "short": "introprog",
+                    "lessons": [
+                        "Python Basics",
+                        "Variables and Data Types",
+                        "Control Flow: If & Loops",
+                        "Functions and Modules",
+                        "Error Handling and Debugging"
+                    ]
+                },
+                {
+                    "title": "Data Structures",
+                    "short": "datastruct",
+                    "lessons": [
+                        "Arrays and Lists",
+                        "Stacks and Queues",
+                        "Linked Lists",
+                        "Trees and Graphs",
+                        "Hash Tables and Dictionaries"
+                    ]
+                },
+                {
+                    "title": "Algorithms",
+                    "short": "algo",
+                    "lessons": [
+                        "Sorting Algorithms",
+                        "Searching Algorithms",
+                        "Recursion",
+                        "Dynamic Programming",
+                        "Graph Algorithms"
+                    ]
+                },
+                {
+                    "title": "Databases & SQL",
+                    "short": "db",
+                    "lessons": [
+                        "SQL Queries",
+                        "Joins and Subqueries",
+                        "Indexes and Optimization",
+                        "Transactions and ACID",
+                        "NoSQL Databases Overview"
+                    ]
+                },
+                {
+                    "title": "Web Development",
+                    "short": "webdev",
+                    "lessons": [
+                        "HTML & CSS",
+                        "JavaScript Basics",
+                        "DOM Manipulation",
+                        "Frontend Frameworks",
+                        "Backend Integration"
+                    ]
+                },
+                {
+                    "title": "Object-Oriented Programming",
+                    "short": "oop",
+                    "lessons": [
+                        "Classes and Objects",
+                        "Encapsulation and Inheritance",
+                        "Polymorphism",
+                        "Design Patterns",
+                        "OOP in Real Projects"
+                    ]
+                },
+                {
+                    "title": "Functional Programming",
+                    "short": "fp",
+                    "lessons": [
+                        "Pure Functions",
+                        "Higher-Order Functions",
+                        "Immutable Data Structures",
+                        "Recursion and Map/Reduce",
+                        "Functional Programming in Practice"
+                    ]
+                },
+                {
+                    "title": "Operating Systems Basics",
+                    "short": "os",
+                    "lessons": [
+                        "Processes and Threads",
+                        "Memory Management",
+                        "File Systems",
+                        "Scheduling and Concurrency",
+                        "Input/Output and Devices"
+                    ]
+                },
+                {
+                    "title": "Networking & Internet Fundamentals",
+                    "short": "net",
+                    "lessons": [
+                        "TCP/IP Basics",
+                        "HTTP/HTTPS Protocols",
+                        "DNS and IP Addressing",
+                        "Sockets and Ports",
+                        "Network Security Basics"
+                    ]
+                },
+                {
+                    "title": "Software Engineering Principles",
+                    "short": "se",
+                    "lessons": [
+                        "Agile Methodology",
+                        "Version Control with Git",
+                        "Testing and QA",
+                        "Code Review and Best Practices",
+                        "Software Development Life Cycle"
+                    ]
+                },
+                {
+                    "title": "Artificial Intelligence Foundations",
+                    "short": "ai",
+                    "lessons": [
+                        "AI Basics",
+                        "Search Algorithms",
+                        "Knowledge Representation",
+                        "Reasoning and Planning",
+                        "AI Ethics and Safety"
+                    ]
+                },
+                {
+                    "title": "Machine Learning Basics",
+                    "short": "ml",
+                    "lessons": [
+                        "Supervised Learning",
+                        "Unsupervised Learning",
+                        "Evaluation Metrics",
+                        "Feature Engineering",
+                        "Introduction to Neural Networks"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Biology",
+            "short": "bio",
+            "courses": [
+                {
+                    "title": "Cell Biology",
+                    "short": "cellbio",
+                    "lessons": [
+                        "Cell Structure",
+                        "Cell Membrane and Transport",
+                        "Organelles and Their Functions",
+                        "Cell Division: Mitosis",
+                        "Cell Division: Meiosis"
+                    ]
+                },
+                {
+                    "title": "Molecular Biology",
+                    "short": "molbio",
+                    "lessons": [
+                        "Proteins and Enzymes",
+                        "DNA Structure and Function",
+                        "RNA and Transcription",
+                        "Translation and Protein Synthesis",
+                        "Gene Regulation"
+                    ]
+                },
+                {
+                    "title": "Genetics",
+                    "short": "genetics",
+                    "lessons": [
+                        "DNA and Genes",
+                        "Mendelian Inheritance",
+                        "Genetic Variation and Mutations",
+                        "Chromosomes and Karyotyping",
+                        "Introduction to Genomics"
+                    ]
+                },
+                {
+                    "title": "Evolutionary Biology",
+                    "short": "evo",
+                    "lessons": [
+                        "Natural Selection",
+                        "Adaptation and Speciation",
+                        "Evolutionary Trees",
+                        "Population Genetics",
+                        "Evolution of Humans"
+                    ]
+                },
+                {
+                    "title": "Microbiology",
+                    "short": "microbio",
+                    "lessons": [
+                        "Bacteria and Viruses",
+                        "Microbial Growth and Metabolism",
+                        "Pathogens and Disease",
+                        "Antibiotics and Resistance",
+                        "Microbiomes and Ecology"
+                    ]
+                },
+                {
+                    "title": "Immunology",
+                    "short": "immuno",
+                    "lessons": [
+                        "Immune Response",
+                        "Innate vs Adaptive Immunity",
+                        "Antibodies and Antigens",
+                        "Vaccines and Immunization",
+                        "Autoimmune Diseases"
+                    ]
+                },
+                {
+                    "title": "Human Anatomy",
+                    "short": "anatomy",
+                    "lessons": [
+                        "Skeletal System",
+                        "Muscular System",
+                        "Nervous System",
+                        "Digestive System",
+                        "Respiratory System"
+                    ]
+                },
+                {
+                    "title": "Human Physiology",
+                    "short": "physiology",
+                    "lessons": [
+                        "Circulatory System",
+                        "Endocrine System",
+                        "Renal System",
+                        "Reproductive System",
+                        "Homeostasis and Feedback Mechanisms"
+                    ]
+                },
+                {
+                    "title": "Neuroscience Basics",
+                    "short": "neuro",
+                    "lessons": [
+                        "Neurons and Synapses",
+                        "Neurotransmitters and Signaling",
+                        "Brain Structure and Function",
+                        "Sensory Systems",
+                        "Motor Control"
+                    ]
+                },
+                {
+                    "title": "Plant Biology",
+                    "short": "plantbio",
+                    "lessons": [
+                        "Photosynthesis",
+                        "Plant Cells and Tissues",
+                        "Plant Growth and Hormones",
+                        "Reproduction in Plants",
+                        "Plant Ecology and Adaptation"
+                    ]
+                },
+                {
+                    "title": "Animal Behavior",
+                    "short": "behavior",
+                    "lessons": [
+                        "Instincts and Learning",
+                        "Communication in Animals",
+                        "Mating and Reproduction Behavior",
+                        "Foraging and Feeding Strategies",
+                        "Social Behavior and Hierarchies"
+                    ]
+                },
+                {
+                    "title": "Ecology",
+                    "short": "ecology",
+                    "lessons": [
+                        "Ecosystems",
+                        "Energy Flow and Food Chains",
+                        "Population Dynamics",
+                        "Community Interactions",
+                        "Conservation and Biodiversity"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Physics",
+            "short": "phys",
+            "courses": [
+                {
+                    "title": "Classical Mechanics",
+                    "short": "mech",
+                    "lessons": [
+                        "Newton's Laws",
+                        "Kinematics and Motion",
+                        "Work and Energy",
+                        "Momentum and Collisions",
+                        "Rotational Motion"
+                    ]
+                },
+                {
+                    "title": "Waves & Oscillations",
+                    "short": "waves",
+                    "lessons": [
+                        "Harmonic Motion",
+                        "Wave Properties",
+                        "Sound Waves",
+                        "Interference and Superposition",
+                        "Resonance"
+                    ]
+                },
+                {
+                    "title": "Fluid Dynamics",
+                    "short": "fluid",
+                    "lessons": [
+                        "Fluid Flow",
+                        "Buoyancy and Archimedes' Principle",
+                        "Viscosity and Drag",
+                        "Bernoulli's Equation",
+                        "Applications in Real Life"
+                    ]
+                },
+                {
+                    "title": "Thermodynamics",
+                    "short": "thermo",
+                    "lessons": [
+                        "Laws of Thermodynamics",
+                        "Heat Transfer Methods",
+                        "Specific Heat and Calorimetry",
+                        "Thermodynamic Processes",
+                        "Engines and Efficiency"
+                    ]
+                },
+                {
+                    "title": "Electricity & Magnetism",
+                    "short": "em",
+                    "lessons": [
+                        "Electric Fields",
+                        "Electric Potential and Voltage",
+                        "Circuits and Ohm's Law",
+                        "Magnetic Fields",
+                        "Electromagnetic Induction"
+                    ]
+                },
+                {
+                    "title": "Optics",
+                    "short": "optics",
+                    "lessons": [
+                        "Reflection and Refraction",
+                        "Lenses and Mirrors",
+                        "Wave Optics: Interference",
+                        "Diffraction and Polarization",
+                        "Optical Instruments"
+                    ]
+                },
+                {
+                    "title": "Special Relativity",
+                    "short": "relativity",
+                    "lessons": [
+                        "Time Dilation",
+                        "Length Contraction",
+                        "Relativistic Mass and Energy",
+                        "Simultaneity",
+                        "Twin Paradox"
+                    ]
+                },
+                {
+                    "title": "Quantum Mechanics",
+                    "short": "quantum",
+                    "lessons": [
+                        "Wave-Particle Duality",
+                        "Uncertainty Principle",
+                        "Quantum States and Superposition",
+                        "Schrödinger Equation Basics",
+                        "Quantum Tunneling"
+                    ]
+                },
+                {
+                    "title": "Nuclear Physics",
+                    "short": "nuclear",
+                    "lessons": [
+                        "Radioactivity",
+                        "Nuclear Reactions",
+                        "Fission and Fusion",
+                        "Nuclear Energy Applications",
+                        "Radiation Safety"
+                    ]
+                },
+                {
+                    "title": "Particle Physics",
+                    "short": "particle",
+                    "lessons": [
+                        "Fundamental Particles",
+                        "Quarks and Leptons",
+                        "Forces and Interactions",
+                        "The Standard Model",
+                        "Particle Accelerators"
+                    ]
+                },
+                {
+                    "title": "Astrophysics",
+                    "short": "astro",
+                    "lessons": [
+                        "Stars and Galaxies",
+                        "Stellar Evolution",
+                        "Cosmology and the Universe",
+                        "Black Holes and Neutron Stars",
+                        "Exoplanets and Observational Methods"
+                    ]
+                },
+                {
+                    "title": "Statistical Physics",
+                    "short": "statphys",
+                    "lessons": [
+                        "Entropy",
+                        "Boltzmann Distribution",
+                        "Microstates and Macrostates",
+                        "Statistical Ensembles",
+                        "Applications in Thermodynamics"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chemistry",
+            "short": "chem",
+            "courses": [
+                {
+                    "title": "General Chemistry",
+                    "short": "genchem",
+                    "lessons": [
+                        "Atoms and Molecules",
+                        "Chemical Bonds",
+                        "Stoichiometry",
+                        "States of Matter",
+                        "Chemical Reactions"
+                    ]
+                },
+                {
+                    "title": "Organic Chemistry I",
+                    "short": "org1",
+                    "lessons": [
+                        "Carbon Compounds",
+                        "Hydrocarbons",
+                        "Functional Groups",
+                        "Isomerism",
+                        "Nomenclature of Organic Molecules"
+                    ]
+                },
+                {
+                    "title": "Organic Chemistry II",
+                    "short": "org2",
+                    "lessons": [
+                        "Organic Reactions",
+                        "Substitution and Elimination Reactions",
+                        "Addition Reactions",
+                        "Oxidation and Reduction",
+                        "Synthesis of Organic Compounds"
+                    ]
+                },
+                {
+                    "title": "Inorganic Chemistry",
+                    "short": "inorg",
+                    "lessons": [
+                        "Periodic Table",
+                        "Main Group Elements",
+                        "Transition Metals",
+                        "Coordination Compounds",
+                        "Crystal Field Theory"
+                    ]
+                },
+                {
+                    "title": "Physical Chemistry",
+                    "short": "physchem",
+                    "lessons": [
+                        "Thermodynamics",
+                        "Chemical Kinetics",
+                        "Chemical Equilibrium",
+                        "Electrochemistry",
+                        "Quantum Chemistry Basics"
+                    ]
+                },
+                {
+                    "title": "Analytical Chemistry",
+                    "short": "analyt",
+                    "lessons": [
+                        "Titrations",
+                        "Spectroscopy",
+                        "Chromatography",
+                        "Mass Spectrometry",
+                        "Qualitative Analysis"
+                    ]
+                },
+                {
+                    "title": "Biochemistry",
+                    "short": "biochem",
+                    "lessons": [
+                        "Proteins and Enzymes",
+                        "Carbohydrates",
+                        "Lipids",
+                        "Nucleic Acids",
+                        "Metabolic Pathways"
+                    ]
+                },
+                {
+                    "title": "Environmental Chemistry",
+                    "short": "envchem",
+                    "lessons": [
+                        "Pollutants",
+                        "Acid Rain and Ozone",
+                        "Water Chemistry",
+                        "Air Quality",
+                        "Sustainable Chemistry Practices"
+                    ]
+                },
+                {
+                    "title": "Materials Chemistry",
+                    "short": "matchem",
+                    "lessons": [
+                        "Polymers",
+                        "Ceramics",
+                        "Metals and Alloys",
+                        "Nanomaterials",
+                        "Smart Materials"
+                    ]
+                },
+                {
+                    "title": "Quantum Chemistry",
+                    "short": "quantchem",
+                    "lessons": [
+                        "Electron Orbitals",
+                        "Wavefunctions and Schrödinger Equation",
+                        "Molecular Orbital Theory",
+                        "Chemical Bonding in Molecules",
+                        "Spectroscopy from Quantum Perspective"
+                    ]
+                },
+                {
+                    "title": "Industrial Chemistry",
+                    "short": "indchem",
+                    "lessons": [
+                        "Chemical Manufacturing",
+                        "Process Optimization",
+                        "Safety and Hazard Management",
+                        "Catalysis in Industry",
+                        "Sustainable Industrial Practices"
+                    ]
+                },
+                {
+                    "title": "Chemical Engineering Principles",
+                    "short": "chemeng",
+                    "lessons": [
+                        "Process Design",
+                        "Mass and Energy Balances",
+                        "Heat and Mass Transfer",
+                        "Reaction Engineering",
+                        "Separation Processes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Geography / Earth Sciences",
+            "short": "geo",
+            "courses": [
+                {
+                    "title": "Physical Geography",
+                    "short": "physgeo",
+                    "lessons": [
+                        "Earth's Structure",
+                        "Landforms and Topography",
+                        "Rocks and Minerals",
+                        "Plate Tectonics",
+                        "Volcanoes and Earthquakes"
+                    ]
+                },
+                {
+                    "title": "Climatology",
+                    "short": "climate",
+                    "lessons": [
+                        "Atmosphere and Weather",
+                        "Climate Zones",
+                        "Weather Patterns",
+                        "Global Warming and Climate Change",
+                        "Extreme Weather Events"
+                    ]
+                },
+                {
+                    "title": "Hydrology",
+                    "short": "hydro",
+                    "lessons": [
+                        "Water Cycle",
+                        "Rivers and Lakes",
+                        "Groundwater and Aquifers",
+                        "Floods and Droughts",
+                        "Water Management"
+                    ]
+                },
+                {
+                    "title": "Biogeography",
+                    "short": "biogeo",
+                    "lessons": [
+                        "Ecosystems and Biomes",
+                        "Flora and Fauna Distribution",
+                        "Human Impacts on Ecosystems",
+                        "Conservation Strategies",
+                        "Biodiversity Hotspots"
+                    ]
+                },
+                {
+                    "title": "Geomorphology",
+                    "short": "geomorph",
+                    "lessons": [
+                        "Erosion and Weathering",
+                        "River and Coastal Processes",
+                        "Glacial Landscapes",
+                        "Desert Landforms",
+                        "Mountain Building"
+                    ]
+                },
+                {
+                    "title": "Human Geography",
+                    "short": "humgeo",
+                    "lessons": [
+                        "Population Distribution",
+                        "Urbanization",
+                        "Cultural Landscapes",
+                        "Migration and Demographics",
+                        "Economic Geography"
+                    ]
+                },
+                {
+                    "title": "Geospatial Technologies",
+                    "short": "geotech",
+                    "lessons": [
+                        "Maps and Cartography",
+                        "Geographic Information Systems (GIS)",
+                        "Remote Sensing",
+                        "GPS and Navigation",
+                        "Spatial Data Analysis"
+                    ]
+                },
+                {
+                    "title": "Environmental Geography",
+                    "short": "envgeo",
+                    "lessons": [
+                        "Natural Resources",
+                        "Pollution and Waste Management",
+                        "Deforestation and Land Use",
+                        "Sustainable Development",
+                        "Environmental Policies"
+                    ]
+                },
+                {
+                    "title": "Oceanography",
+                    "short": "ocean",
+                    "lessons": [
+                        "Ocean Currents",
+                        "Marine Ecosystems",
+                        "Tides and Waves",
+                        "Sea Level Changes",
+                        "Human Impacts on Oceans"
+                    ]
+                },
+                {
+                    "title": "Meteorology",
+                    "short": "meteo",
+                    "lessons": [
+                        "Atmospheric Pressure",
+                        "Wind Systems",
+                        "Storm Formation",
+                        "Weather Forecasting",
+                        "Climate Modeling"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "History",
+            "short": "hist",
+            "courses": [
+                {
+                    "title": "Ancient Civilizations",
+                    "short": "ancientciv",
+                    "lessons": [
+                        "Egypt and Mesopotamia",
+                        "Indus Valley Civilization",
+                        "Ancient China: Shang & Zhou Dynasties",
+                        "Pre-Columbian Americas",
+                        "Persian Empire"
+                    ]
+                },
+                {
+                    "title": "Classical Greece & Rome",
+                    "short": "classical",
+                    "lessons": [
+                        "Greek Philosophy",
+                        "Athenian Democracy",
+                        "The Peloponnesian War",
+                        "Rise of Rome",
+                        "Roman Republic and Empire"
+                    ]
+                },
+                {
+                    "title": "Middle Ages",
+                    "short": "middleages",
+                    "lessons": [
+                        "Early Medieval Europe",
+                        "Feudalism and Manorialism",
+                        "The Crusades",
+                        "The Black Death",
+                        "Rise of Monarchies"
+                    ]
+                },
+                {
+                    "title": "Renaissance & Reformation",
+                    "short": "renaissance",
+                    "lessons": [
+                        "Humanism and Art",
+                        "Scientific Discoveries",
+                        "Martin Luther and the Reformation",
+                        "Printing Revolution",
+                        "Political Changes in Europe"
+                    ]
+                },
+                {
+                    "title": "Age of Exploration",
+                    "short": "exploration",
+                    "lessons": [
+                        "Early Navigators",
+                        "Columbus and the Americas",
+                        "Portugal and Spice Trade",
+                        "Colonial Empires",
+                        "Impact on Indigenous Peoples"
+                    ]
+                },
+                {
+                    "title": "Enlightenment & Revolution",
+                    "short": "enlightenment",
+                    "lessons": [
+                        "Philosophers of the Enlightenment",
+                        "Scientific Revolution",
+                        "American Revolution",
+                        "French Revolution",
+                        "Industrial Revolution"
+                    ]
+                },
+                {
+                    "title": "19th Century History",
+                    "short": "19thcent",
+                    "lessons": [
+                        "Napoleonic Wars",
+                        "Nationalism and Unification",
+                        "Colonialism and Imperialism",
+                        "Social Reforms and Labor Movements",
+                        "Technological and Cultural Changes"
+                    ]
+                },
+                {
+                    "title": "20th Century World History",
+                    "short": "20thcent",
+                    "lessons": [
+                        "World War I",
+                        "Interwar Period",
+                        "World War II",
+                        "Cold War",
+                        "Decolonization and Civil Rights"
+                    ]
+                },
+                {
+                    "title": "History of Science & Technology",
+                    "short": "scitechhist",
+                    "lessons": [
+                        "Early Scientific Discoveries",
+                        "Renaissance Science",
+                        "Industrial Age Innovations",
+                        "20th Century Technology",
+                        "Digital Revolution"
+                    ]
+                },
+                {
+                    "title": "History of Religion",
+                    "short": "religionhist",
+                    "lessons": [
+                        "Origins of Major Religions",
+                        "Buddhism and Hinduism",
+                        "Christianity and Judaism",
+                        "Islamic Civilization",
+                        "Modern Religious Movements"
+                    ]
+                },
+                {
+                    "title": "Cultural History",
+                    "short": "culturalhist",
+                    "lessons": [
+                        "Art and Architecture Through the Ages",
+                        "Music History",
+                        "Literature and Philosophy",
+                        "Festivals and Traditions",
+                        "Cultural Exchange and Globalization"
+                    ]
+                },
+                {
+                    "title": "Economic History",
+                    "short": "economichist",
+                    "lessons": [
+                        "Ancient Trade Networks",
+                        "Medieval Commerce",
+                        "Mercantilism and Colonial Trade",
+                        "Industrial Economies",
+                        "Globalization and Modern Markets"
+                    ]
+                }
+            ]
+        }
+    ]
+}

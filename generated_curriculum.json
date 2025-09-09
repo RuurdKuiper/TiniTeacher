@@ -1,0 +1,137 @@
+{
+  "subjects": [
+    {
+      "name": "Philosophy",
+      "short": "phil",
+      "courses": [
+        {
+          "title": "Ancient Philosophy",
+          "short": "ancient",
+          "lessons": [
+            {
+              "lesson_id": "ancient_1",
+              "title": "Plato and the World of Forms",
+              "summary_ELI5": "Plato believed that everything we see is just a shadow of a perfect version called the Form. The Form is like the best version of things.",
+              "summary_ELI12": "Plato's theory of Forms suggests that beyond our physical world, there exists a realm of perfect ideals or Forms that represent the true essence of things. These Forms are unchanging and eternal.",
+              "summary_ELI16": "In Plato's philosophy, the World of Forms is a non-material abstract realm that contains the perfect archetypes of all objects and concepts we encounter in the physical world. These Forms are immutable and represent the ideal characteristics of their counterparts.",
+              "summary_ELI25": "Plato's World of Forms posits a dualistic ontology wherein the material world is a flawed reflection of a higher reality comprised of perfect, immutable Forms. These Forms serve as the ultimate standards for truth and reality, influencing Plato's epistemology and ethics.",
+              "bites": [
+                {
+                  "bite_id": "ancient_1_b1",
+                  "explanations": {
+                    "ELI5": "Forms are like perfect ideas. For example, a perfect circle exists in the Form world, while all the circles we draw are just not quite perfect.",
+                    "ELI12": "Think of a Form as the ultimate version of something, like the perfect cookie. While you can bake cookies that taste good, they will never match the ideal cookie in your mind.",
+                    "ELI16": "Plato argues that for every object or concept, such as beauty or justice, there exists a Form that encapsulates its perfect essence, serving as a standard against which all instances in the physical world are measured.",
+                    "ELI25": "The theory of Forms asserts that the tangible world is a mere approximation of the true Forms, which exist in a separate, non-physical realm. This metaphysical perspective underscores the distinction between appearance and reality, where Forms provide the basis for understanding universals."
+                  }
+                },
+                {
+                  "bite_id": "ancient_1_b2",
+                  "explanations": {
+                    "ELI5": "Plato thought we can't see these Forms. We see the real world but only as copies of these perfect Forms.",
+                    "ELI12": "The real world is like a movie. The Forms are the behind-the-scenes ideas that make everything happen, but we only see the movie.",
+                    "ELI16": "According to Plato, our sensory experiences are deceptive and only provide a glimpse of reality. The Forms represent the true, unchangeable reality, while the physical world is filled with shadows of these Forms.",
+                    "ELI25": "Plato's epistemology is rooted in the belief that knowledge derived from sensory perception is inferior to the knowledge of the Forms. He posits that true knowledge is attainable only through intellectual reasoning, leading to an understanding of the immutable truths represented by the Forms."
+                  }
+                },
+                {
+                  "bite_id": "ancient_1_b3",
+                  "explanations": {
+                    "ELI5": "We can think about the Forms to understand the world better, like imagining the best toy even if we don’t have it.",
+                    "ELI12": "By thinking about the Forms, we can get a better idea of what things should be like, helping us make better choices and understand our world.",
+                    "ELI16": "Engaging with the concept of Forms allows individuals to transcend the limitations of empirical knowledge, fostering a deeper comprehension of concepts such as morality, beauty, and truth, which are often subjective.",
+                    "ELI25": "The engagement with the World of Forms facilitates a dialectical approach to philosophy, enabling individuals to critically assess the nature of perceived realities and aspire toward the higher understanding of universal truths, thus cultivating both intellectual and moral virtues."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "ancient_1_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What is a Form?",
+                    "ELI12": "What does Plato mean by Forms?",
+                    "ELI16": "How do Forms relate to the physical world according to Plato?",
+                    "ELI25": "What is the significance of the Forms in Plato's philosophical system?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A perfect idea",
+                      "A real object",
+                      "A shadow"
+                    ],
+                    "ELI12": [
+                      "An ideal version of things",
+                      "A physical object",
+                      "A bad copy"
+                    ],
+                    "ELI16": [
+                      "They are perfect ideals",
+                      "They are the same as objects",
+                      "They are illusions"
+                    ],
+                    "ELI25": [
+                      "They represent immutable truths",
+                      "They are merely representations",
+                      "They are subjective experiences"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "ancient_1_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Can we see Forms?",
+                    "ELI12": "What can we learn from understanding Forms?",
+                    "ELI16": "Why does Plato think the physical world is misleading?",
+                    "ELI25": "How do Forms influence Plato's ideas on knowledge and reality?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Yes, always",
+                      "No, never",
+                      "Sometimes"
+                    ],
+                    "ELI12": [
+                      "To make better choices",
+                      "To understand only objects",
+                      "It doesn’t help"
+                    ],
+                    "ELI16": [
+                      "They are deceptive",
+                      "They reflect truth",
+                      "They are concrete"
+                    ],
+                    "ELI25": [
+                      "They provide the basis for true knowledge",
+                      "They are irrelevant",
+                      "They complicate understanding"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Plato's Forms help us understand what things should be like.",
+                "ELI12": "Understanding Forms gives us a way to think about the best versions of everything in our world.",
+                "ELI16": "Studying Forms encourages critical thinking about reality and the ideals we aspire to.",
+                "ELI25": "Engaging with the World of Forms enhances our philosophical inquiry, allowing for the exploration of universal principles that govern our understanding of existence."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

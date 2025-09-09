@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Curriculum Viewer</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; }
+select, button { margin: 5px; padding: 5px; }
+#lesson-container { margin-top: 20px; }
+.bite, .quiz { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+.hidden { display: none; }
+
+.menu-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.menu-btn {
+  text-align: center;
+  cursor: pointer;
+}
+.menu-btn img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+.menu-btn img:hover {
+  transform: scale(1.05);
+}
+.menu-btn span {
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+
+<h1>Curriculum Viewer</h1>
+
+<label for="level-select">Choose level:</label>
+<select id="level-select">
+    <option value="ELI5">ELI5</option>
+    <option value="ELI12">ELI12</option>
+    <option value="ELI16">ELI16</option>
+    <option value="ELI25">ELI25</option>
+</select>
+
+<!-- Replaced dropdowns with graphical rows -->
+<div id="subject-row" class="menu-row"></div>
+<div id="course-row" class="menu-row hidden"></div>
+<div id="lesson-row" class="menu-row hidden"></div>
+
+<div id="lesson-container" class="hidden">
+    <div id="bite-container"></div>
+    <div id="quiz-container" class="hidden"></div>
+    <button id="prev-btn">Previous</button>
+    <button id="next-btn">Next</button>
+</div>
+
+<script>
+let curriculum = {};
+let currentLevel = 'ELI5';
+let currentLesson = null;
+let currentSubject = null;
+let currentCourse = null;
+let biteIndex = 0;
+let quizIndex = 0;
+let inQuiz = false;
+
+// Load subjects dynamically from multiple JSON files
+async function loadSubjects() {
+    const subjectFiles = [
+        'generated_curriculum/bio.json',
+        'generated_curriculum/chem.json',
+        'generated_curriculum/math.json',
+        'generated_curriculum/cs.json',
+        'generated_curriculum/phys.json',
+        'generated_curriculum/phil.json',
+        'generated_curriculum/geo.json'
+    ];
+
+    curriculum = { subjects: [] };
+
+    for (const file of subjectFiles) {
+        const response = await fetch(file);
+        const data = await response.json();
+        const subj = data.subjects[0]; // Each file has one subject
+        curriculum.subjects.push(subj);
+    }
+
+    renderSubjects(curriculum);
+}
+
+// Render subject buttons
+function renderSubjects(curriculum) {
+    const row = document.getElementById('subject-row');
+    row.innerHTML = '';
+    curriculum.subjects.forEach(sub => {
+        const iconPath = `images/${sub.short}/${sub.short}_icon.png`;
+        const btn = document.createElement('div');
+        btn.className = 'menu-btn';
+        btn.innerHTML = `
+            <img src="${iconPath}" alt="${sub.name} icon"
+                 onerror="this.src='images/placeholder.png'">
+            <span>${sub.name}</span>
+        `;
+        btn.onclick = () => {
+            currentSubject = sub;
+            renderCourses(sub);
+        };
+        row.appendChild(btn);
+    });
+}
+
+// Render course buttons
+function renderCourses(subject) {
+    const row = document.getElementById('course-row');
+    row.innerHTML = '';
+    document.getElementById('lesson-row').classList.add('hidden');
+    subject.courses.forEach(c => {
+        const iconPath = `images/${subject.short}/${c.short}/${c.short}_icon.png`;
+        const btn = document.createElement('div');
+        btn.className = 'menu-btn';
+        btn.innerHTML = `
+            <img src="${iconPath}" alt="${c.title} icon"
+                 onerror="this.src='images/placeholder.png'">
+            <span>${c.title}</span>
+        `;
+        btn.onclick = () => {
+            currentCourse = c;
+            renderLessons(subject, c);
+        };
+        row.appendChild(btn);
+    });
+    row.classList.remove('hidden');
+}
+
+// Render lesson buttons
+function renderLessons(subject, course) {
+    const row = document.getElementById('lesson-row');
+    row.innerHTML = '';
+    course.lessons.forEach((lesson, i) => {
+        const btn = document.createElement('button');
+        btn.textContent = lesson.title;
+        btn.onclick = () => {
+            currentLesson = lesson;
+            biteIndex = 0;
+            quizIndex = 0;
+            inQuiz = false;
+            document.getElementById('lesson-container').classList.remove('hidden');
+            renderLesson();
+        };
+        row.appendChild(btn);
+    });
+    row.classList.remove('hidden');
+}
+
+// Handle level changes
+document.getElementById('level-select').addEventListener('change', function() {
+    currentLevel = this.value;
+    if (currentLesson) renderLesson();
+});
+
+// Render the current bite or quiz
+function renderLesson() {
+    const biteContainer = document.getElementById('bite-container');
+    const quizContainer = document.getElementById('quiz-container');
+
+    if (!inQuiz) {
+        const bite = currentLesson.bites[biteIndex];
+        const explanation = bite.explanations[currentLevel];
+
+        const imgPath = `images/${currentSubject.short}/${currentCourse.short}/${bite.bite_id}.png`;
+
+        biteContainer.innerHTML = `
+            <div class="bite">
+                <strong>Bite ${biteIndex + 1}:</strong>
+                <p>${explanation}</p>
+                <img src="${imgPath}" alt="Illustration" 
+                     style="max-width:300px; display:block; margin-top:10px;" 
+                     onerror="this.style.display='none'">
+            </div>
+        `;
+        quizContainer.classList.add('hidden');
+    } else {
+        const quiz = currentLesson.quizzes[quizIndex];
+        let optionsHTML = '';
+        quiz.options[currentLevel].forEach((o, i) => {
+            optionsHTML += `<label><input type="radio" name="quiz" value="${i}"> ${o}</label><br>`;
+        });
+
+        quizContainer.innerHTML = `
+            <div class="quiz">
+                <strong>Quiz ${quizIndex + 1}:</strong>
+                <p>${quiz.questions[currentLevel]}</p>
+                ${optionsHTML}
+                <div id="feedback" style="margin-top:5px;font-weight:bold;"></div>
+            </div>
+        `;
+        quizContainer.classList.remove('hidden');
+        biteContainer.innerHTML = '';
+
+        // Add immediate feedback
+        document.querySelectorAll('input[name="quiz"]').forEach(input => {
+            input.addEventListener('change', function() {
+                const feedbackDiv = document.getElementById('feedback');
+                const selected = parseInt(this.value);
+                const correct = quiz.correct_answers[currentLevel];
+                if (selected === correct) {
+                    feedbackDiv.textContent = "Correct!";
+                    feedbackDiv.style.color = "green";
+                } else {
+                    feedbackDiv.textContent = `Incorrect. Correct answer: ${quiz.options[currentLevel][correct]}`;
+                    feedbackDiv.style.color = "red";
+                }
+            });
+        });
+    }
+}
+
+// Next / Previous buttons
+document.getElementById('next-btn').addEventListener('click', () => {
+    if (!currentLesson) return;
+    if (!inQuiz) {
+        if (biteIndex < currentLesson.bites.length - 1) {
+            biteIndex++;
+        } else {
+            inQuiz = true;
+            quizIndex = 0;
+        }
+    } else {
+        if (quizIndex < currentLesson.quizzes.length - 1) {
+            quizIndex++;
+        } else return; // end of lesson
+    }
+    renderLesson();
+});
+
+document.getElementById('prev-btn').addEventListener('click', () => {
+    if (!currentLesson) return;
+    if (inQuiz) {
+        if (quizIndex > 0) {
+            quizIndex--;
+        } else {
+            inQuiz = false;
+            biteIndex = currentLesson.bites.length - 1;
+        }
+    } else {
+        if (biteIndex > 0) biteIndex--;
+    }
+    renderLesson();
+});
+
+// Kick things off
+loadSubjects();
+</script>
+
+</body>
+</html>
