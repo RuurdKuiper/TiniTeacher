@@ -161,38 +161,38 @@ for subject_file in curriculum_folder.glob("*.json"):
 
 
 
-# # Iterate over all subject JSONs
-# generated = True
-# for subject_file in curriculum_folder.glob("*.json"):
-#     with subject_file.open("r", encoding="utf-8") as f:
-#         data = json.load(f)
+# Iterate over all subject JSONs
+generated = True
+for subject_file in curriculum_folder.glob("*.json"):
+    with subject_file.open("r", encoding="utf-8") as f:
+        data = json.load(f)
 
-#     if subject_file.stem != "bio":
-#         continue
+    if subject_file.stem != "bio":
+        continue
 
-#     subject = data["subjects"][0]
-#     for course in subject["courses"]:
-#         for lesson in course["lessons"]:
-#             for bite in lesson["bites"]:
-#                 bite_id = bite["bite_id"]
-#                 out_path = image_folder / subject["short"] / course["short"] / f"{bite_id}.png"
-#                 print(out_path)
+    subject = data["subjects"][0]
+    for course in subject["courses"]:
+        for lesson in course["lessons"]:
+            for bite in lesson["bites"]:
+                bite_id = bite["bite_id"]
+                out_path = image_folder / subject["short"] / course["short"] / f"{bite_id}.png"
+                print(out_path)
 
-#                 if out_path.exists():
-#                     print(f"⏭️ Skipping existing image: {out_path}")
-#                     continue
-#                 print(bite)
-#                 prompt = create_prompt(subject, course, lesson, bite)
+                if out_path.exists():
+                    print(f"⏭️ Skipping existing image: {out_path}")
+                    continue
+                print(bite)
+                prompt = create_prompt(subject, course, lesson, bite)
 
-#                 if not prompt:
-#                     continue
+                if not prompt:
+                    continue
 
-#                 generated = generate_image(prompt, out_path)
-#                 if not generated:
-#                     break
-#             if not generated:
-#                 break
-#         if not generated:
-#             break
-#     if not generated:
-#         break
+                generated = generate_image(prompt, out_path)
+                if not generated:
+                    break
+            if not generated:
+                break
+        if not generated:
+            break
+    if not generated:
+        break
