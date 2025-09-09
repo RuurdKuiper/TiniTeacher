@@ -287,13 +287,20 @@ document.getElementById('next-btn').addEventListener('click',()=>{
 document.getElementById('prev-btn').addEventListener('click',()=>{
     if(!currentLesson) return;
     if(inQuiz){
-        if(quizIndex>0) quizIndex--;
-        else{ inQuiz=false; biteIndex=currentLesson.bites.length-1; }
-    } else if(biteIndex>0){
+        if(quizIndex>0){
+            quizIndex--;
+        } else {
+            inQuiz=false;
+            biteIndex=currentLesson.bites.length-1;
+            document.getElementById('quiz-container').innerHTML='';   // clear quiz
+            document.getElementById('quiz-container').classList.add('hidden');
+        }
+    } else if(biteIndex>0) {
         biteIndex--;
     }
     renderLesson();
 });
+
 
 loadSubjects();
 </script>

@@ -8444,6 +8444,2180 @@
                 "ELI16": "Napoleon changed Europe with his conquests and reforms but eventually was defeated at Waterloo and exiled. His lasting impact includes the spread of his legal code.",
                 "ELI25": "Napoleon Bonaparte's era of warfare and political ambition significantly altered the European landscape, ending with his defeat at Waterloo and subsequent exile. His legacy includes lasting legal and nationalistic impacts."
               }
+            },
+            {
+              "lesson_id": "19thcent_2",
+              "title": "Nationalism and Unification",
+              "summary_ELI5": "Nationalism is like when people in a country get a strong feeling that they want to be one big happy family, and unification is when those feelings help them join together.",
+              "summary_ELI12": "In the 19th century, people in many places felt strong pride in their culture and identity. This led to countries like Italy and Germany coming together into one nation instead of many smaller states.",
+              "summary_ELI16": "Nationalism in the 19th century was a powerful force, inspiring people to seek unity and independence based on shared history, culture, or language, leading to the unification of countries such as Italy and Germany.",
+              "summary_ELI25": "During the 19th century, nationalism encouraged diverse groups within fragmented states to seek unification or independence, resulting in significant geopolitical changes, notably the unification of Italy and Germany through diplomatic, political, and sometimes military means.",
+              "bites": [
+                {
+                  "bite_id": "19thcent_2_b1",
+                  "explanations": {
+                    "ELI5": "Nationalism is when people love their country a lot.",
+                    "ELI12": "Nationalism is a strong feeling of pride and loyalty that people have for their own country or group.",
+                    "ELI16": "Nationalism is an ideology that emphasizes loyalty, devotion, or allegiance to a nation or nation-state and places these obligations above other individual or group interests.",
+                    "ELI25": "Nationalism is a political ideology focused on the interests and culture of a nation, sometimes driven by the idea that a group of people with common values and history should govern themselves independently."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b2",
+                  "explanations": {
+                    "ELI5": "In the 1800s, Italy was like a bunch of different puzzle pieces instead of one whole country.",
+                    "ELI12": "Before Italy was a single country, it was made up of many small states that were ruled by different kings and leaders.",
+                    "ELI16": "Prior to unification, Italy was a patchwork of independent states and regions, each with its own rulers, rather than a single, unified nation.",
+                    "ELI25": "Pre-unification Italy comprised multiple independent states and duchies, such as the Kingdom of Sardinia and the Papal States, with different governments and political alliances."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b3",
+                  "explanations": {
+                    "ELI5": "Germany was also not one country but lots of little pieces.",
+                    "ELI12": "Just like Italy, Germany was made up of many separate small regions, each with their own leaders and governments.",
+                    "ELI16": "Germany, before its unification, consisted of numerous independent kingdoms, duchies, and principalities, each acting separately under different local governments.",
+                    "ELI25": "Prior to unification, Germany was a fragmented collection of kingdoms and principalities, including Prussia and Bavaria, each with significant autonomy and varying forms of governance."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b4",
+                  "explanations": {
+                    "ELI5": "Leaders like a man named Giuseppe Garibaldi helped these puzzle pieces come together.",
+                    "ELI12": "Giuseppe Garibaldi was an important leader who helped unite the different parts of Italy into one single country.",
+                    "ELI16": "Giuseppe Garibaldi was a central figure in the Italian unification, known for leading military campaigns that helped consolidate the separate states into one unified Italy.",
+                    "ELI25": "Giuseppe Garibaldi, a key military and political figure, played an instrumental role in the Italian Risorgimento, leading the Expedition of the Thousand which significantly contributed to the unification of Italy."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b5",
+                  "explanations": {
+                    "ELI5": "Bismarck was a big helper in making Germany one country.",
+                    "ELI12": "Otto von Bismarck was a leader who used politics and clever plans to bring the German states together as one country.",
+                    "ELI16": "Otto von Bismarck, known as the 'Iron Chancellor,' used diplomatic strategies and military alliances to achieve the unification of the German states under Prussian leadership.",
+                    "ELI25": "Bismarck employed Realpolitik, a pragmatic and often coercive approach to politics, orchestrating wars and alliances to consolidate the German Empire under Prussian dominance, culminating in the unification in 1871."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b6",
+                  "explanations": {
+                    "ELI5": "Unifying countries made them stronger and able to work better together.",
+                    "ELI12": "When countries like Italy and Germany unified, it made them stronger because they could act as one team instead of lots of separate ones.",
+                    "ELI16": "The unification process created stronger nation-states in Italy and Germany, allowing them to consolidate their resources and share a common political agenda, enhancing their power within Europe.",
+                    "ELI25": "Unification solidified the political and economic foundations of emerging nation-states like Italy and Germany, encouraging nationalism and internal stability, while also positioning them as powerful players in European geopolitical dynamics."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_2_b7",
+                  "explanations": {
+                    "ELI5": "This change in the map made some people happy and some people upset.",
+                    "ELI12": "The new countries created new challenges: while many people were happy to be united, others worried about losing their local culture and power.",
+                    "ELI16": "Unification often caused tension, as the consolidation process sometimes suppressed regional identities, creating friction despite the overall increase in national unity.",
+                    "ELI25": "The unification of Italy and Germany stirred both nationalist fervor and dissent; though it cemented stronger, centralized states, it also incited resistance from regional entities and minority groups concerned about autonomy and cultural preservation."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "19thcent_2_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What is nationalism?",
+                    "ELI12": "Which statement best describes nationalism?",
+                    "ELI16": "What ideology drove people to unify under common cultural and historical values in the 19th century?",
+                    "ELI25": "How did nationalism influence geopolitical boundaries in 19th-century Europe?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Loving your family",
+                      "Loving your country",
+                      "Loving your pet"
+                    ],
+                    "ELI12": [
+                      "A strong feeling of pride in your country",
+                      "Dislike of other countries",
+                      "Being the best in sports"
+                    ],
+                    "ELI16": [
+                      "Imperialism",
+                      "Nationalism",
+                      "Communism"
+                    ],
+                    "ELI25": [
+                      "It created tensions leading to revolts",
+                      "It inspired unification and independent nation-states",
+                      "It played a minor role in political developments"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 0,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_2_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who helped make Italy one country?",
+                    "ELI12": "Who was a key figure in Italian unification?",
+                    "ELI16": "Which leader is famously associated with the unification of Italy?",
+                    "ELI25": "Giuseppe Garibaldi is renowned for his role in what major historical transformation?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Giuseppe Pizza",
+                      "Giuseppe Garibaldi",
+                      "Giuseppe Lasagna"
+                    ],
+                    "ELI12": [
+                      "Napoleon Bonaparte",
+                      "Giuseppe Garibaldi",
+                      "King George III"
+                    ],
+                    "ELI16": [
+                      "Otto von Bismarck",
+                      "Giuseppe Garibaldi",
+                      "Victor Hugo"
+                    ],
+                    "ELI25": [
+                      "The creation of the Austro-Hungarian Empire",
+                      "The unification of Italy",
+                      "The French Revolution"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_2_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did Bismarck help do?",
+                    "ELI12": "How did Bismarck contribute to German history?",
+                    "ELI16": "What was Otto von Bismarck's role in 19th-century Germany?",
+                    "ELI25": "What political strategy did Otto von Bismarck utilize to achieve German unification?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Make Germany a country",
+                      "Build a big castle",
+                      "Start a band"
+                    ],
+                    "ELI12": [
+                      "He designed a national flag",
+                      "He helped unify Germany",
+                      "He discovered America"
+                    ],
+                    "ELI16": [
+                      "He was a prominent poet",
+                      "He led military reform efforts leading to unification",
+                      "He supported German colonization"
+                    ],
+                    "ELI25": [
+                      "Democratic negotiations",
+                      "Realpolitik and strategic warfare",
+                      "International peace treaties"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_2_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What happened when countries joined together?",
+                    "ELI12": "Why did unification make countries stronger?",
+                    "ELI16": "What was a primary benefit of unification for Italy and Germany?",
+                    "ELI25": "How did unification impact the political landscape of Italy and Germany?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "They got stronger",
+                      "They got smaller",
+                      "They disappeared"
+                    ],
+                    "ELI12": [
+                      "They could work together better",
+                      "They lost friends",
+                      "They sold all their castles"
+                    ],
+                    "ELI16": [
+                      "It allowed for more effective collective defense and economic policies",
+                      "It led to loss of resources",
+                      "It increased isolationism"
+                    ],
+                    "ELI25": [
+                      "It fragmented political cohesion",
+                      "It stabilized and centralized governance, enhancing resource management and international standing",
+                      "It created a reliance on external alliances"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_2_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "How did everyone feel about the new countries?",
+                    "ELI12": "Were there any concerns about unification?",
+                    "ELI16": "What were some challenges faced by newly unified countries like Italy and Germany?",
+                    "ELI25": "What socio-political tensions arose from the unification processes in 19th-century Europe?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Everyone was happy",
+                      "Some happy, some upset",
+                      "Everyone was sleepy"
+                    ],
+                    "ELI12": [
+                      "No, everyone was happy",
+                      "Yes, some people worried about local traditions",
+                      "No one cared"
+                    ],
+                    "ELI16": [
+                      "Loss of regional autonomy and cultural identity",
+                      "Immediate economic prosperity",
+                      "Global diplomatic disputes"
+                    ],
+                    "ELI25": [
+                      "No significant tensions",
+                      "Conflicts over regional identities and autonomy, along with economic disparities",
+                      "Universal acceptance and cultural homogeneity"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 1
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Countries became one when people wanted to be together, but not everyone was happy.",
+                "ELI12": "Nationalism helped countries like Italy and Germany become stronger together, but it was a tough change for some.",
+                "ELI16": "The unification brought political and economic strength to countries, but also posed challenges in balancing regional identities and national unity.",
+                "ELI25": "While nationalism and unification forged robust nation-states in Italy and Germany, they also introduced socio-political complexities, as regional identities struggled against centralized authority, catalyzing both cohesion and conflict."
+              }
+            },
+            {
+              "lesson_id": "19thcent_3",
+              "title": "Colonialism and Imperialism",
+              "summary_ELI5": "Colonialism is when one country takes control of another, often far away. They send people to live there and use the land.",
+              "summary_ELI12": "Colonialism and Imperialism are about powerful countries taking over smaller ones. They wanted more land, resources, and to spread their culture.",
+              "summary_ELI16": "In the 19th century, colonialism involved European nations dominating other regions to exploit resources and expand political power, often disrupting local cultures.",
+              "summary_ELI25": "Colonialism and Imperialism in the 19th century were characterized by European powers exercising control over territories globally to enhance economic wealth, military strength, and cultural influence, often justifying it with a sense of superiority.",
+              "bites": [
+                {
+                  "bite_id": "19thcent_3_b1",
+                  "explanations": {
+                    "ELI5": "Countries took over places far away to get more land and things.",
+                    "ELI12": "Big countries wanted land from other places to get rich fast and show they were strong.",
+                    "ELI16": "European nations scrambled for territories to control trade routes and resource-rich lands.",
+                    "ELI25": "The 19th-century saw the 'Scramble for Africa', where European powers partitioned the continent, seeking control over trade routes and resource extraction."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b2",
+                  "explanations": {
+                    "ELI5": "People from strong countries went to live in these new lands.",
+                    "ELI12": "Colonizers sent their own people to the new lands to build towns.",
+                    "ELI16": "European settlers established colonies, frequently displacing native populations.",
+                    "ELI25": "Colonies were established by settlers from imperial nations, often marginalizing indigenous societies and supplanting local governance structures."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b3",
+                  "explanations": {
+                    "ELI5": "They wanted more lands to get more stuff to trade.",
+                    "ELI12": "Resources like gold, silver, and spices attracted countries to new lands.",
+                    "ELI16": "The economic interests, such as accessing raw materials and new markets, fueled imperial expansion.",
+                    "ELI25": "Driven by mercantilism, colonial powers leveraged natural resources and new markets for economic prosperity and industrialization."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b4",
+                  "explanations": {
+                    "ELI5": "The newcomers made people change how they lived.",
+                    "ELI12": "Colonizers imposed their ways, changing how local people lived everyday.",
+                    "ELI16": "Imposed cultural norms and systems by colonizers often oppressed native traditions.",
+                    "ELI25": "The imposition of colonial rule altered socio-cultural landscapes, suppressing indigenous identities under hegemonic cultural influences."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b5",
+                  "explanations": {
+                    "ELI5": "Some places didn't want to be ruled and fought back.",
+                    "ELI12": "Many countries resisted colonization, wanting freedom.",
+                    "ELI16": "Resistance sprang in colonies as local leaders and communities sought autonomy.",
+                    "ELI25": "Anti-colonial sentiments incited resistance movements, challenging imperial domination and fostering nationalistic aspirations."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b6",
+                  "explanations": {
+                    "ELI5": "New rulers made new rules, even if people didn't like them.",
+                    "ELI12": "Colonizers changed the way places were run with new laws.",
+                    "ELI16": "Colonial governance often replaced traditional systems, imposing foreign legal and administrative structures.",
+                    "ELI25": "Colonial administrations systematically dismantled pre-existing governance systems, establishing bureaucratic structures aligned with imperial objectives."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_3_b7",
+                  "explanations": {
+                    "ELI5": "Even today, people talk about how colonization shaped their lands.",
+                    "ELI12": "Colonial history affects how people see the world around them today.",
+                    "ELI16": "The legacy of colonialism continues to influence socioeconomic and political dynamics globally.",
+                    "ELI25": "Contemporary geopolitical and socio-economic structures are entrenched with complexities rooted in historical colonial engagements, reflecting in post-colonial discourse."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "19thcent_3_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Why did countries want more land?",
+                    "ELI12": "What was a main reason countries pursued colonies?",
+                    "ELI16": "What economic interest primarily fueled colonization?",
+                    "ELI25": "Which economic theory justified the colonization efforts of 19th-century empires?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "To have more playgrounds",
+                      "To become more rich",
+                      "To help others"
+                    ],
+                    "ELI12": [
+                      "To spread happiness",
+                      "To gain resources and wealth",
+                      "To learn new cultures"
+                    ],
+                    "ELI16": [
+                      "To gain cultural knowledge",
+                      "To control resources and trade",
+                      "To avoid wars"
+                    ],
+                    "ELI25": [
+                      "Laissez-faire economics",
+                      "Utilitarianism",
+                      "Mercantilism"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 2
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_3_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who came to live in the new lands?",
+                    "ELI12": "Who were sent to live in colonies?",
+                    "ELI16": "Which group often settled in newly acquired territories?",
+                    "ELI25": "Colonies were typically established by which group of people from the imperial nations?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Aliens",
+                      "Newcomers from strong countries",
+                      "Pirates"
+                    ],
+                    "ELI12": [
+                      "Adventurers from other countries",
+                      "People from the colonizing country",
+                      "Space explorers"
+                    ],
+                    "ELI16": [
+                      "European settlers",
+                      "Nomadic tribes",
+                      "Local villagers"
+                    ],
+                    "ELI25": [
+                      "Missionaries",
+                      "Military personnel",
+                      "Civil settlers from colonizing states"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 2
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_3_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the new rulers do?",
+                    "ELI12": "What changed when new rulers took over?",
+                    "ELI16": "What impact did the new colonial rulers have on governance?",
+                    "ELI25": "How did colonial rulers affect local governance systems?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Started new games",
+                      "Made new rules",
+                      "Built castles"
+                    ],
+                    "ELI12": [
+                      "Invented new games",
+                      "Set new laws and systems",
+                      "Threw parties"
+                    ],
+                    "ELI16": [
+                      "Maintained old systems",
+                      "Imposed foreign governance",
+                      "Ignored local leaders"
+                    ],
+                    "ELI25": [
+                      "Reformed local laws",
+                      "Established bureaucratic control",
+                      "Promoted indigenous leaders"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_3_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "How did people feel about new rulers?",
+                    "ELI12": "How did locals generally react to colonization?",
+                    "ELI16": "What was a common response to colonial rule by indigenous people?",
+                    "ELI25": "Which was a prevalent reaction among colonies toward imperial dominance?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Happy",
+                      "Resistant",
+                      "Curious"
+                    ],
+                    "ELI12": [
+                      "Excited",
+                      "Resistant, often leading to fights",
+                      "Indifferent"
+                    ],
+                    "ELI16": [
+                      "Welcoming",
+                      "Resistance and uprisings",
+                      "Desperate acceptance"
+                    ],
+                    "ELI25": [
+                      "Compliance",
+                      "Rebellious resistance",
+                      "Ambivalence"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_3_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What is something lasting from colonial times?",
+                    "ELI12": "What is a lasting effect of colonialism?",
+                    "ELI16": "What is a legacy of colonialism evident today?",
+                    "ELI25": "Colonialism has left a lasting impact on what current global aspect?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Games",
+                      "Ways people live",
+                      "Nations"
+                    ],
+                    "ELI12": [
+                      "Stories",
+                      "Economic differences",
+                      "Cartoons"
+                    ],
+                    "ELI16": [
+                      "Cultural diversity",
+                      "Social-economic structures",
+                      "Technological advancements"
+                    ],
+                    "ELI25": [
+                      "International trade systems",
+                      "Cultural hegemony",
+                      "Global power dynamics"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 2
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Countries long ago took over others to be big and strong. This is called colonialism.",
+                "ELI12": "Colonialism greatly shaped how the world looks today, leaving impacts that can still be seen.",
+                "ELI16": "The 19th-century colonial activities by European powers set the stage for modern geopolitics, economies, and cultural exchanges.",
+                "ELI25": "The 19th-century colonial expansion has indelibly shaped today's political, economic, and cultural global landscape, driving discourses on sovereignty and historical accountability."
+              }
+            },
+            {
+              "lesson_id": "19thcent_4",
+              "title": "Social Reforms and Labor Movements",
+              "summary_ELI5": "In the 1800s, people worked together to make life better and fairer for everyone, especially workers.",
+              "summary_ELI12": "During the 19th century, people started movements to improve working conditions, reduce work hours, and help the poor and children.",
+              "summary_ELI16": "The 19th century saw significant social reform efforts, particularly in labor movements demanding better pay, safer working conditions, and shorter workdays.",
+              "summary_ELI25": "Social reforms and labor movements in the 19th century were pivotal in improving conditions for workers, leading to significant legislation that addressed child labor, working hours, and safety standards.",
+              "bites": [
+                {
+                  "bite_id": "19thcent_4_b1",
+                  "explanations": {
+                    "ELI5": "A long time ago, kids had to work a lot, so people tried to change that.",
+                    "ELI12": "Children used to work many hours in factories, but people started fighting for laws to prevent this.",
+                    "ELI16": "Child labor was rampant in the 19th century, leading to reform efforts that aimed to protect children from exploitation.",
+                    "ELI25": "In the 19th century, child labor was a common practice, but social reformers advocated for legislation to prohibit this exploitation, leading to the Factory Acts."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b2",
+                  "explanations": {
+                    "ELI5": "People wanted to make sure everyone got paid fairly, so they made new rules.",
+                    "ELI12": "Workers wanted better wages and working conditions, so they organized and protested.",
+                    "ELI16": "Organized labor movements sought to improve low wages and poor working conditions through strikes and negotiations.",
+                    "ELI25": "The labor movements of the 19th century saw unions advocating for fair wages, leveraging strikes and collective bargaining to influence legislation such as minimum wage laws."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b3",
+                  "explanations": {
+                    "ELI5": "People wanted to work fewer hours so they had more time for fun.",
+                    "ELI12": "Folks started demanding that their work hours were cut down to give them more time for their families.",
+                    "ELI16": "The push for shorter workdays was central to labor movements, highlighting the need for balance between work and life.",
+                    "ELI25": "The labor movements of the 19th century successfully lobbied for the reduction of working hours, advocating for work-life balance and aiming for the eight-hour workday."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b4",
+                  "explanations": {
+                    "ELI5": "New groups, called unions, were started to help workers.",
+                    "ELI12": "Workers formed unions to help each other fight for better conditions and pay.",
+                    "ELI16": "Unions became vital in advocating for workers' rights, organizing strikes and lobbies for policy changes.",
+                    "ELI25": "The formation of unions was instrumental in labor movements, enabling collective action and negotiations that led to substantive improvements in labor laws."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b5",
+                  "explanations": {
+                    "ELI5": "There were protests because people were unhappy with their jobs.",
+                    "ELI12": "Workers often protested against unfair treatment and unsafe working conditions.",
+                    "ELI16": "Strikes and protests were common as workers demanded better treatment, often resulting in violent clashes that highlighted the need for reform.",
+                    "ELI25": "Labor strikes were significant events in the 19th century, often marked by violence and opposition but ultimately leading to critical changes in labor policies and practices."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b6",
+                  "explanations": {
+                    "ELI5": "Some people were poor and needed help, so others worked hard to help them.",
+                    "ELI12": "Reformers started programs to help the poor and teach them new skills for better jobs.",
+                    "ELI16": "Social reform efforts included initiatives to alleviate poverty and provide education and skills training for the underprivileged.",
+                    "ELI25": "The rise of social welfare programs and educational initiatives in the 19th century aimed to address poverty and provide upward mobility opportunities for the working class."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_4_b7",
+                  "explanations": {
+                    "ELI5": "People thought strong rules were needed to keep workers safe.",
+                    "ELI12": "Laws were introduced to ensure factories were safe and workers didn't get hurt.",
+                    "ELI16": "The 19th century saw the implementation of safety regulations in industries to protect workers from hazardous conditions.",
+                    "ELI25": "Industrial safety regulations became a focus during the 19th century, as reform movements pushed for accountability and legislative measures to safeguard workers' health and wellbeing."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "19thcent_4_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Why did kids stop working so much?",
+                    "ELI12": "What was a major goal of early labor movements?",
+                    "ELI16": "How did labor unions seek to improve wages and working conditions?",
+                    "ELI25": "What was the role of the Factory Acts in the 19th century labor movement?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Because people wanted to help them",
+                      "Because school was fun",
+                      "Because it was easy"
+                    ],
+                    "ELI12": [
+                      "To increase vacation time",
+                      "To improve wages and conditions",
+                      "To start businesses"
+                    ],
+                    "ELI16": [
+                      "By forming protests",
+                      "By working harder",
+                      "By organizing unions"
+                    ],
+                    "ELI25": [
+                      "To promote industrial growth",
+                      "To regulate hours and conditions",
+                      "To abolish unions"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 2,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_4_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who helped workers get fair pay?",
+                    "ELI12": "What was the purpose of forming labor unions?",
+                    "ELI16": "Why did workers organize strikes?",
+                    "ELI25": "What impact did labor strikes have on legislation?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Unions",
+                      "Kings",
+                      "Teachers"
+                    ],
+                    "ELI12": [
+                      "To eliminate work",
+                      "To fight for rights",
+                      "To create parties"
+                    ],
+                    "ELI16": [
+                      "To play music",
+                      "To watch movies",
+                      "To demand better conditions"
+                    ],
+                    "ELI25": [
+                      "They led to stricter policies",
+                      "They resulted in more strikes",
+                      "They facilitated legal reforms"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 2,
+                    "ELI25": 2
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_4_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did workers want less of?",
+                    "ELI12": "Why did workers fight for shorter working hours?",
+                    "ELI16": "What was a slogan of the labor movement promoting shorter workdays?",
+                    "ELI25": "How did the concept of the eight-hour workday evolve from labor movements?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Playtime",
+                      "Work",
+                      "Food"
+                    ],
+                    "ELI12": [
+                      "To increase productivity",
+                      "To gain more free time",
+                      "To reduce unemployment"
+                    ],
+                    "ELI16": [
+                      "Eight hours for sleep",
+                      "Eight hours for work, rest, and play",
+                      "Work 'til you drop"
+                    ],
+                    "ELI25": [
+                      "It was an outcome of World War I policies",
+                      "It was an early labor demand not realized until later decades",
+                      "Directly tied to technological advancements in industry"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_4_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did unions do?",
+                    "ELI12": "How did unions contribute to worker rights?",
+                    "ELI16": "What strategies did unions employ to advocate for workers?",
+                    "ELI25": "In what ways did unions impact 19th-century labor legislation?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Cooked food",
+                      "Helped workers",
+                      "Built houses"
+                    ],
+                    "ELI12": [
+                      "By organizing parties",
+                      "By negotiating with employers",
+                      "By closing factories"
+                    ],
+                    "ELI16": [
+                      "Strikes and negotiations",
+                      "Ignoring issues",
+                      "Appealing to consumers"
+                    ],
+                    "ELI25": [
+                      "They provided legal services",
+                      "They were instrumental in passing labor laws",
+                      "They served as political parties"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_4_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who did reforms help?",
+                    "ELI12": "Who benefited from social welfare programs?",
+                    "ELI16": "What role did education play in social reforms?",
+                    "ELI25": "How did social reforms address the issue of poverty in the 19th century?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Workers",
+                      "Animals",
+                      "Trees"
+                    ],
+                    "ELI12": [
+                      "Factories owners",
+                      "The poor and children",
+                      "Soldiers"
+                    ],
+                    "ELI16": [
+                      "It provided leisure time",
+                      "It increased skill sets and opportunities",
+                      "It made everyone rich"
+                    ],
+                    "ELI25": [
+                      "By providing direct financial aid",
+                      "Through structured skill-building and educational programs",
+                      "By relocating populations to urban centers"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "People worked hard to make things better and fairer for everyone.",
+                "ELI12": "Through their efforts, workers and reformers made big changes that improved lives for many during the 19th century.",
+                "ELI16": "The labor movements and social reforms of the 19th century significantly improved the quality of life for workers by advocating for fair laws and labor practices.",
+                "ELI25": "The 19th century was a pivotal era for labor movements and social reforms, leading to progressive changes that laid the foundation for modern labor laws and improved societal standards."
+              }
+            },
+            {
+              "lesson_id": "19thcent_5",
+              "title": "Technological and Cultural Changes",
+              "summary_ELI5": "This lesson is about cool new things invented a long time ago, like trains and cameras!",
+              "summary_ELI12": "This lesson covers how amazing inventions like steam engines and new art styles changed the world in the 1800s.",
+              "summary_ELI16": "In the 19th century, significant technological advances such as transportation and communication reshaped society, alongside dramatic shifts in cultural dynamics.",
+              "summary_ELI25": "The 19th century was marked by profound technological advancements, including the industrial revolution and innovations in communication and transportation, which fostered significant cultural transformations and global connectivity.",
+              "bites": [
+                {
+                  "bite_id": "19thcent_5_b1",
+                  "explanations": {
+                    "ELI5": "Trains started letting people and things move really, really fast!",
+                    "ELI12": "The invention of trains transformed transport, enabling quicker movement of people and goods across long distances.",
+                    "ELI16": "Steam locomotives and railways revolutionized transportation, significantly reducing travel times and fostering economic and social linkages.",
+                    "ELI25": "The advent of steam locomotives facilitated the rapid expansion of railway networks, dramatically reducing logistics costs and catalyzing economic integration during the age of industrialization."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b2",
+                  "explanations": {
+                    "ELI5": "People started taking pictures with cameras for the first time!",
+                    "ELI12": "Photography emerged as a new technique to capture images, allowing people to preserve moments visually.",
+                    "ELI16": "The invention of photography provided a novel method for capturing and preserving images, revolutionizing visual representation and documentation.",
+                    "ELI25": "The development of photographic techniques in the 19th century, such as daguerreotypes, offered unprecedented opportunities for visual representation, profoundly impacting art, communication, and historical documentation."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b3",
+                  "explanations": {
+                    "ELI5": "Huge machines started making things faster and easier in factories.",
+                    "ELI12": "The Industrial Revolution introduced machinery that increased production capabilities significantly in various industries.",
+                    "ELI16": "The rise of mechanized manufacturing during the Industrial Revolution increased production efficiency, standardizing products and reducing costs.",
+                    "ELI25": "Mechanization during the Industrial Revolution led to unprecedented scale and efficiency in manufacturing, utilizing steam power and technological innovation to reduce production time and labor costs."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b4",
+                  "explanations": {
+                    "ELI5": "New ideas in art made paintings look different from before.",
+                    "ELI12": "Art movements like Realism and Impressionism changed how artists depicted life, focusing on everyday scenes and light effects.",
+                    "ELI16": "Artistic movements such as Realism and Impressionism offered nuanced portrayals of life, emphasizing contemporary scenes and novel perceptions of light and color.",
+                    "ELI25": "In response to socio-economic changes, movements such as Realism and Impressionism emerged, focusing on truthful representation of everyday life and innovative approaches to light and color, reflecting broader cultural shifts."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b5",
+                  "explanations": {
+                    "ELI5": "People started sending messages really quickly with wires called telegraphs.",
+                    "ELI12": "The telegraph made communication faster by sending messages over wires, revolutionizing how people connected over long distances.",
+                    "ELI16": "Telegraphy introduced rapid long-distance communication, using electrical signals to transmit text, significantly impacting business, media, and personal communication.",
+                    "ELI25": "The telegraphic system transformed communication through Morse code, enabling instantaneous transmission of information across significant distances, fostering global trade and diplomacy."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b6",
+                  "explanations": {
+                    "ELI5": "Electricity started being used in homes and helped make life easier.",
+                    "ELI12": "The introduction of electricity began transforming homes and cities, powering new inventions and improving daily life.",
+                    "ELI16": "The harnessing and distribution of electricity initiated technological advancements that reshaped urban environments and everyday living standards.",
+                    "ELI25": "The late 19th century witnessed the advent of electrical power infrastructure, propelling innovations in lighting, transportation, and communication, significantly altering urban landscapes and industrial capacities."
+                  }
+                },
+                {
+                  "bite_id": "19thcent_5_b7",
+                  "explanations": {
+                    "ELI5": "People wrote poems and stories about feelings and nature, called Romanticism.",
+                    "ELI12": "Romanticism was an artistic movement that emphasized emotion, nature, and individualism, influencing literature and art.",
+                    "ELI16": "The Romantic movement prioritized emotional depth, natural beauty, and individual liberty, challenging Enlightenment rationality through expressive arts.",
+                    "ELI25": "Romanticism emerged as a counter-movement to Enlightenment ideals, focusing on emotional expression, transcendental experiences, and nature, fundamentally influencing artistic and intellectual paradigms."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "19thcent_5_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did trains help us do faster?",
+                    "ELI12": "How did trains change society in the 19th century?",
+                    "ELI16": "What was the impact of steam locomotives on 19th-century society and economy?",
+                    "ELI25": "Describe the significance of railway networks in shaping 19th-century economic and social structures."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Walk",
+                      "Eat",
+                      "Travel"
+                    ],
+                    "ELI12": [
+                      "Made travel slower",
+                      "Helped move people and goods quickly",
+                      "Stopped travel"
+                    ],
+                    "ELI16": [
+                      "Led to slower economic growth",
+                      "Facilitated rapid travel and commerce",
+                      "Made communication impossible"
+                    ],
+                    "ELI25": [
+                      "Reduced impact of industrialization",
+                      "Enabled unprecedented economic integration",
+                      "Had no effect on logistics"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_5_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What helped people take pictures back then?",
+                    "ELI12": "Which new technology allowed people to capture images in the 19th century?",
+                    "ELI16": "How did photography alter visual representation during its inception?",
+                    "ELI25": "What technological advancements in the 19th century transformed historical documentation through visual capture?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Drawing",
+                      "Photography",
+                      "Video"
+                    ],
+                    "ELI12": [
+                      "Telegraph",
+                      "Steam Engine",
+                      "Photography"
+                    ],
+                    "ELI16": [
+                      "By making paintings obsolete",
+                      "By capturing real-life imagery",
+                      "By halting artistic development"
+                    ],
+                    "ELI25": [
+                      "Advancements in telegraphy",
+                      "Development of daguerreotypes",
+                      "Emergence of lithography"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 2,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_5_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did people use to talk really far away with wires?",
+                    "ELI12": "Which technology allowed people to send messages quickly over wires?",
+                    "ELI16": "What was the role of the telegraph in transforming 19th-century communication?",
+                    "ELI25": "Explain telegraphic advancements' effect on business and diplomatic communication."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Telephone",
+                      "Telegraph",
+                      "TV"
+                    ],
+                    "ELI12": [
+                      "Train",
+                      "Telegraph",
+                      "Radio"
+                    ],
+                    "ELI16": [
+                      "Slowed down message delivery",
+                      "Enabled rapid message transmission",
+                      "Had limited impact"
+                    ],
+                    "ELI25": [
+                      "Increased communication delays",
+                      "Prompted efficient information exchange",
+                      "Restrained global connectivity"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_5_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did electricity start to do in homes?",
+                    "ELI12": "How did the use of electricity start changing people's day-to-day lives?",
+                    "ELI16": "What were the implications of electricity use in urban environments in the 19th century?",
+                    "ELI25": "Discuss the transformative effects of electrical infrastructure on 19th-century urban life."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Make it colder",
+                      "Light up the room",
+                      "Stop clocks"
+                    ],
+                    "ELI12": [
+                      "Increased energy costs",
+                      "Provided new lighting",
+                      "Triggered economic decline"
+                    ],
+                    "ELI16": [
+                      "Inhibited industrial growth",
+                      "Enabled technological prosperity",
+                      "Impeded urban development"
+                    ],
+                    "ELI25": [
+                      "Supplied industries with power",
+                      "Diminished industrial capacities",
+                      "Increased reliance on gas lighting"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "19thcent_5_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What kind of new art talked about feelings and nature?",
+                    "ELI12": "Which art movement in the 19th century emphasized emotion and nature?",
+                    "ELI16": "How did Romanticism change artistic perspectives in the 19th century?",
+                    "ELI25": "Analyze the influence of Romanticism on 19th-century cultural paradigms."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Rock and Roll",
+                      "Romanticism",
+                      "Action Movies"
+                    ],
+                    "ELI12": [
+                      "Romanticism",
+                      "Impressionism",
+                      "Cubism"
+                    ],
+                    "ELI16": [
+                      "Promoted rationalism",
+                      "Encouraged emotional exploration",
+                      "Stifled artistic creativity"
+                    ],
+                    "ELI25": [
+                      "Undermined emotional expression",
+                      "Fostered expressive creativity",
+                      "Restricted intellectual diversity"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 0,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "Lots of cool things like trains, cameras, and lights changed how people lived back then.",
+                "ELI12": "Technological inventions like the telegraph and electricity transformed how people lived, worked, and communicated.",
+                "ELI16": "The 19th century saw pivotal changes with technological advancements like trains and electricity influencing daily life and work practices.",
+                "ELI25": "The technological and cultural shifts of the 19th century, propelled by industrial and scientific advancements, reshaped societal structures and influenced contemporary cultural narratives."
+              }
+            }
+          ]
+        },
+        {
+          "title": "20th Century World History",
+          "short": "20thcent",
+          "lessons": [
+            {
+              "lesson_id": "20thcent_1",
+              "title": "World War I",
+              "summary_ELI5": "World War I was a big fight a long time ago, with many countries involved. It started because countries got mad at each other after a big leader was hurt.",
+              "summary_ELI12": "World War I was a massive war from 1914 to 1918 involving many countries like Britain, France, and Germany. It began after the assassination of Archduke Ferdinand, leading to a chain of events that pulled in various nations due to alliances.",
+              "summary_ELI16": "World War I (1914-1918) was a global conflict centered in Europe, triggered by the assassination of Archduke Franz Ferdinand of Austria. It involved major world powers, grouped into two alliances: the Allies and the Central Powers, and drastically changed global political dynamics.",
+              "summary_ELI25": "World War I, often deemed the 'Great War,' spanned from 1914 to 1918 and arose from complex interlocking alliances, nationalism, militarism, and imperial ambitions. Sparked by the assassination of Archduke Franz Ferdinand, it involved major powers divided into the Allies and Central Powers, leading to profound geopolitical ramifications.",
+              "bites": [
+                {
+                  "bite_id": "20thcent_1_b1",
+                  "explanations": {
+                    "ELI5": "World War I started when a big leader got shot, and everyone got upset.",
+                    "ELI12": "The war began after Archduke Franz Ferdinand of Austria-Hungary was assassinated. This event made countries that were friends with Austria get involved.",
+                    "ELI16": "The assassination of Archduke Franz Ferdinand in 1914 was the direct catalyst for World War I, as his death led Austria-Hungary to declare war on Serbia, prompting alliances to come into play.",
+                    "ELI25": "The immediate cause of World War I was the assassination of Archduke Franz Ferdinand of Austria on June 28, 1914, which set off a domino effect of war declarations among nations bound by complex treaties and alliances."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b2",
+                  "explanations": {
+                    "ELI5": "Countries teamed up to help their friends, making the war bigger.",
+                    "ELI12": "Countries had agreements to support each other if attacked. So when Austria-Hungary and Serbia had problems, countries like Germany, Russia, and others joined in.",
+                    "ELI16": "Alliances formed before the war, like the Triple Entente and Triple Alliance, meant that a conflict involving one country could quickly involve others, expanding a local issue to a world war.",
+                    "ELI25": "Entangled alliances, like the Triple Entente (France, Russia, UK) and the Triple Alliance (Germany, Austria-Hungary, Italy), meant that a conflict involving one member could prompt allies to join, escalating a localized conflict to a global scale."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b3",
+                  "explanations": {
+                    "ELI5": "New machines and weapons made the war very scary and dangerous.",
+                    "ELI12": "The war saw the use of new technology like airplanes, tanks, and machine guns, making battles more deadly and intense.",
+                    "ELI16": "World War I was notable for technological advancements in warfare, such as the introduction of tanks, machine guns, airplanes, and chemical warfare, significantly changing combat strategies and increasing casualties.",
+                    "ELI25": "The First World War marked a shift in warfare with the deployment of advanced technology, including tanks, machine guns, and chemical weapons, which, alongside tactics like trench warfare, led to massive casualties and transformed military strategies."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b4",
+                  "explanations": {
+                    "ELI5": "Soldiers fought in muddy holes called trenches.",
+                    "ELI12": "A lot of the fighting happened in trenches, which were like long, muddy holes, where soldiers stayed to protect themselves from enemies.",
+                    "ELI16": "Trench warfare was a defining characteristic of World War I, with soldiers facing harsh conditions in extensive trench networks, leading to stalemates and significant hardships.",
+                    "ELI25": "Trench warfare became synonymous with World War I, characterized by vast networks of fortified ditches, where soldiers endured adverse conditions and fought a attritional war over limited territorial gains."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b5",
+                  "explanations": {
+                    "ELI5": "The war ended when countries signed a promise to stop fighting.",
+                    "ELI12": "The fighting stopped with an agreement called the Treaty of Versailles, which blamed Germany for the war and demanded it pay big fines.",
+                    "ELI16": "The Treaty of Versailles, signed in 1919, officially ended the war, imposing heavy reparations and territorial losses on Germany, which many historians believe sowed the seeds for future conflicts.",
+                    "ELI25": "The 1919 Treaty of Versailles brought World War I to a close by imposing punitive conditions on Germany, including territorial losses, military restrictions, and reparations, fostering economic and political instability that contributed to future global tensions."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b6",
+                  "explanations": {
+                    "ELI5": "Many countries learned lessons to not fight again easily.",
+                    "ELI12": "After seeing the war's destruction, countries tried to work together in a group called the League of Nations to keep peace.",
+                    "ELI16": "The League of Nations was formed in the aftermath of World War I to promote international cooperation and prevent future conflicts, though it struggled with limited power and authority.",
+                    "ELI25": "In an effort to avert future wars, the League of Nations was established, aiming to foster diplomacy and resolve conflicts through dialogue, but its lack of enforcement powers hindered its efficacy in maintaining global peace."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_1_b7",
+                  "explanations": {
+                    "ELI5": "World War I changed a lot of things in the world.",
+                    "ELI12": "The war changed maps, broke empires, and set up new countries, altering how Europe and the world looked.",
+                    "ELI16": "Geopolitical landscapes were significantly altered post-war, with the dissolution of empires like the Austro-Hungarian, Ottoman, and German Empires, leading to new nations and reshaped political boundaries.",
+                    "ELI25": "The geopolitical aftermath of World War I included the dissolution of major imperial dynasties such as the Austro-Hungarian, Ottoman, and German Empires, redrawing national boundaries, fostering nationalism, and altering the global political landscape."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "20thcent_1_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who was hurt that started the war?",
+                    "ELI12": "What event triggered the start of World War I?",
+                    "ELI16": "Which event is considered the immediate cause of World War I?",
+                    "ELI25": "The assassination of which leader is often cited as the immediate catalyst for World War I?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A king",
+                      "A big bird",
+                      "Archduke Franz Ferdinand"
+                    ],
+                    "ELI12": [
+                      "Bombing of a city",
+                      "Assassination of Archduke Franz Ferdinand",
+                      "A natural disaster"
+                    ],
+                    "ELI16": [
+                      "Sinking of the Lusitania",
+                      "Assassination of Archduke Franz Ferdinand",
+                      "Invasion of Belgium"
+                    ],
+                    "ELI25": [
+                      "Kaiser Wilhelm II",
+                      "Archduke Franz Ferdinand",
+                      "Winston Churchill"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_1_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Where did soldiers live during the war?",
+                    "ELI12": "What was the name of the muddy holes soldiers lived in?",
+                    "ELI16": "What was the predominant style of warfare during WWI, characterized by extensive digging and defensive positions?",
+                    "ELI25": "Which term best describes the asymmetric warfare adopted on the Western Front during World War I?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Houses",
+                      "Trenches",
+                      "Parks"
+                    ],
+                    "ELI12": [
+                      "Castles",
+                      "Tents",
+                      "Trenches"
+                    ],
+                    "ELI16": [
+                      "Trench Warfare",
+                      "Guerrilla Warfare",
+                      "Blitzkrieg"
+                    ],
+                    "ELI25": [
+                      "Trench Warfare",
+                      "Total War",
+                      "Air Warfare"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 2,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_1_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the countries do to stop fighting?",
+                    "ELI12": "What was the name of the agreement that ended the war?",
+                    "ELI16": "Which treaty officially ended hostilities and imposed penalties on Germany?",
+                    "ELI25": "In the aftermath of World War I, which treaty imposed heavy reparations and territorial losses on Germany?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Time out",
+                      "Treaty of Versailles",
+                      "Go home"
+                    ],
+                    "ELI12": [
+                      "Treaty of Paris",
+                      "Treaty of Versailles",
+                      "Treaty of London"
+                    ],
+                    "ELI16": [
+                      "Treaty of Ghent",
+                      "Treaty of Versailles",
+                      "Treaty of Trianon"
+                    ],
+                    "ELI25": [
+                      "Treaty of Versailles",
+                      "Treaty of Brest-Litovsk",
+                      "Treaty of Vienna"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_1_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What was the group called that tried to keep peace after the war?",
+                    "ELI12": "Which organization was created after WWI to help countries avoid war?",
+                    "ELI16": "What international organization was established to maintain peace but had limited success?",
+                    "ELI25": "Which body, conceived during the Paris Peace Conference, aimed to prevent future conflicts through collective security?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "The Fighters",
+                      "League of Nations",
+                      "Peace Club"
+                    ],
+                    "ELI12": [
+                      "United Nations",
+                      "League of Nations",
+                      "World Organization"
+                    ],
+                    "ELI16": [
+                      "League of Nations",
+                      "NATO",
+                      "Warsaw Pact"
+                    ],
+                    "ELI25": [
+                      "League of Nations",
+                      "United Nations",
+                      "The European Union"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_1_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the war change in the world?",
+                    "ELI12": "How did World War I impact countries?",
+                    "ELI16": "What are some significant geopolitical changes that occurred due to World War I?",
+                    "ELI25": "Which post-war realignment led to the disintegration of empires and the formation of new states in the aftermath of World War I?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Nothing",
+                      "Things stayed the same",
+                      "Changed countries"
+                    ],
+                    "ELI12": [
+                      "Changed borders and rulers",
+                      "Made more friends",
+                      "Left no impact"
+                    ],
+                    "ELI16": [
+                      "Redrawn borders, new nations",
+                      "Permanent unity",
+                      "Economic stability everywhere"
+                    ],
+                    "ELI25": [
+                      "Redrawing of borders, new nation states, dissolution of empires",
+                      "Uninterrupted continuity of pre-war alliances",
+                      "Complete economic recovery and harmony"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "World War I was a big, important fight a long time ago that changed a lot in the world.",
+                "ELI12": "World War I was a massive conflict that reshaped countries and how they interacted, leaving impacts that are still felt today.",
+                "ELI16": "World War I was a pivotal event that altered political maps, created new nations, and set the stage for international diplomacy and future conflicts.",
+                "ELI25": "World War I's legacy includes significant geopolitical realignments, redrawn national boundaries, and the formation of institutions like the League of Nations aiming to ensure peace, though peace remained elusive, setting the scene for future global conflicts."
+              }
+            },
+            {
+              "lesson_id": "20thcent_2",
+              "title": "Interwar Period",
+              "summary_ELI5": "After World War I, the world tried to get back to normal, but there were lots of problems and changes happening everywhere.",
+              "summary_ELI12": "The Interwar Period was the time between World War I and World War II. Countries faced many challenges like economic troubles, new political ideas, and conflicts leading up to another big war.",
+              "summary_ELI16": "The Interwar Period, spanning from 1918 to 1939, was marked by significant global changes. Countries dealt with economic depression, the rise of totalitarian regimes, and shifting political alliances which set the stage for World War II.",
+              "summary_ELI25": "The Interwar Period was characterized by profound economic, political, and social shifts following World War I. The economic instability, notably the Great Depression, and the rise of fascist and totalitarian states, amid existing tensions, catalyzed global conflict leading to World War II.",
+              "bites": [
+                {
+                  "bite_id": "20thcent_2_b1",
+                  "explanations": {
+                    "ELI5": "Lots of countries had a difficult time with money after World War I.",
+                    "ELI12": "After WWI, many countries faced economic challenges, like having to pay for war damages or dealing with less trade.",
+                    "ELI16": "Post-WWI economies struggled globally, with war debts and reparations creating economic instability, particularly in Europe.",
+                    "ELI25": "The economic aftermath of WWI was severe, with reparations imposed on Germany through the Treaty of Versailles exacerbating an already fragile European economy."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b2",
+                  "explanations": {
+                    "ELI5": "The Great Depression made it hard for people to find jobs and for families to have enough money.",
+                    "ELI12": "During the 1930s, the Great Depression saw many people out of work and struggling financially worldwide.",
+                    "ELI16": "The Great Depression, a global economic downturn, was triggered by the 1929 stock market crash, severely affecting employment and industrial output.",
+                    "ELI25": "The Great Depression, ignited by the 1929 Wall Street Crash, led to widespread unemployment and profound economic hardship, altering global economic practices and policies."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b3",
+                  "explanations": {
+                    "ELI5": "People trusted new leaders who promised to make things better, like Hitler in Germany.",
+                    "ELI12": "In response to economic hardship, leaders like Hitler in Germany promised recovery and gained support from frustrated citizens.",
+                    "ELI16": "Totalitarian leaders, such as Adolf Hitler in Germany, rose to power by exploiting economic distress, offering radical solutions and nationalistic fervor.",
+                    "ELI25": "The interwar era saw a surge in totalitarian regimes, with leaders like Hitler exploiting the socio-economic turmoil to consolidate power, utilizing nationalist rhetoric and scapegoating minorities."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b4",
+                  "explanations": {
+                    "ELI5": "Countries tried not to fight again by agreeing to stop making lots of weapons.",
+                    "ELI12": "During the Interwar Period, agreements were made between countries to reduce armies and avoid another war.",
+                    "ELI16": "The period saw disarmament treaties, such as the Washington Naval Treaty, attempting to ensure peace through military limitations.",
+                    "ELI25": "Disarmament efforts in the interwar years, exemplified by the Washington Naval Conference, aimed at reducing naval arms to mitigate the prospect of an arms race, though with varied commitment levels."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b5",
+                  "explanations": {
+                    "ELI5": "People started thinking in new and exciting ways about government and society.",
+                    "ELI12": "New political ideas like socialism and fascism gained attention as societies sought solutions to economic and social issues.",
+                    "ELI16": "The interwar period was a time of ideological experimentation, with socialist and fascist movements offering alternative paradigms to liberal democracies.",
+                    "ELI25": "This era saw ideological innovation, with socialism and fascism emerging as responses to liberal capitalist systems perceived as inadequate for addressing contemporary socio-economic challenges."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b6",
+                  "explanations": {
+                    "ELI5": "Countries like Japan, Italy, and Germany wanted more land, leading to conflicts.",
+                    "ELI12": "Expansions by countries like Japan, Italy, and Germany during this time raised tensions internationally, leading to conflicts.",
+                    "ELI16": "Imperialistic ambitions by Japan, Italy, and Germany disrupted international peace, driving aggressive expansionist policies that fueled global tensions.",
+                    "ELI25": "The expansionist policies of Axis powers such as Nazi Germany, Fascist Italy, and Imperial Japan served as catalysts for diplomatic strains, precipitating regional conflicts that culminated in global war."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_2_b7",
+                  "explanations": {
+                    "ELI5": "New inventions changed how people lived and worked.",
+                    "ELI12": "Technological advancements during the interwar years, like cars and radios, transformed everyday life and culture.",
+                    "ELI16": "The interwar years witnessed technological advancements that reshaped socio-economic dynamics, notably with innovations like automobiles and telecommunications.",
+                    "ELI25": "Technological innovation during the interwar period, including advancements in automotive and broadcasting technologies, significantly impacted societal mobility, industrial productivity, and cultural dissemination."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "20thcent_2_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What big money problem hurt lots of people during this time?",
+                    "ELI12": "What was the global economic crisis called that occurred during the 1930s?",
+                    "ELI16": "Which economic downturn in the 1930s had widespread implications globally?",
+                    "ELI25": "Identify the economic downturn in the 1930s recognized for its profound global impact."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Happy Times",
+                      "Great Depression",
+                      "Big Rain"
+                    ],
+                    "ELI12": [
+                      "The Great Excitement",
+                      "The Great Depression",
+                      "The Low Period"
+                    ],
+                    "ELI16": [
+                      "The Roaring Twenties",
+                      "The Great Depression",
+                      "The Economic Boom"
+                    ],
+                    "ELI25": [
+                      "The Prosperity Collapse",
+                      "The Great Depression",
+                      "The Financial Crisis"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_2_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who was a leader that promised big changes for Germany?",
+                    "ELI12": "Which leader rose to power in Germany, promising revival after WWI?",
+                    "ELI16": "Who was the leader that transformed Germany with totalitarian ideologies?",
+                    "ELI25": "Name the leader who significantly influenced Germany's direction with totalitarian policies post-WWI."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Walt Disney",
+                      "Adolf Hitler",
+                      "Albert Einstein"
+                    ],
+                    "ELI12": [
+                      "Ludwig van Beethoven",
+                      "Otto von Bismarck",
+                      "Adolf Hitler"
+                    ],
+                    "ELI16": [
+                      "Ernst Röhm",
+                      "Adolf Hitler",
+                      "Heinrich Himmler"
+                    ],
+                    "ELI25": [
+                      "Friedrich Ebert",
+                      "Adolf Hitler",
+                      "Hermann Göring"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 2,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_2_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did countries sign to promise fewer weapons?",
+                    "ELI12": "What were the agreements called that aimed to reduce military forces?",
+                    "ELI16": "What were some initiatives aiming at reducing armaments to prevent war?",
+                    "ELI25": "Identify the international agreements aimed at military disarmament post-WWI."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Peace Paper",
+                      "Weapon Promise",
+                      "Friendship Treaty"
+                    ],
+                    "ELI12": [
+                      "Peace Pacts",
+                      "Armistice Agreements",
+                      "Disarmament Treaties"
+                    ],
+                    "ELI16": [
+                      "Trade Agreements",
+                      "Disarmament Treaties",
+                      "Military Alliances"
+                    ],
+                    "ELI25": [
+                      "Non-Aggression Pacts",
+                      "Disarmament Treaties",
+                      "Economic Sanctions"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 2,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_2_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Which country wanted more land during this time?",
+                    "ELI12": "Which countries pursued expansionist policies leading to conflicts?",
+                    "ELI16": "Name the nations noted for their expansionist policies during the interwar era.",
+                    "ELI25": "Which Axis power pursued aggressive territorial expansion prompting global concern?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Brazil",
+                      "Japan",
+                      "Australia"
+                    ],
+                    "ELI12": [
+                      "Mexico",
+                      "Japan, Italy, Germany",
+                      "India"
+                    ],
+                    "ELI16": [
+                      "Spain, Portugal, Greece",
+                      "Germany, Japan, Italy",
+                      "Canada, Sweden, Norway"
+                    ],
+                    "ELI25": [
+                      "France",
+                      "Germany",
+                      "United States"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_2_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What new invention let people hear radio shows at home?",
+                    "ELI12": "Which invention popularized during the interwar period changed entertainment?",
+                    "ELI16": "Identify the technology that enhanced communication and entertainment in the 1920s-30s.",
+                    "ELI25": "What technology, proliferating in the interwar years, revolutionized domestic communication patterns?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Typewriter",
+                      "Radio",
+                      "Bicycle"
+                    ],
+                    "ELI12": [
+                      "Television",
+                      "Radio",
+                      "Internet"
+                    ],
+                    "ELI16": [
+                      "Telegraph",
+                      "Radio",
+                      "Cinema"
+                    ],
+                    "ELI25": [
+                      "Telephone",
+                      "Radio",
+                      "Television"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "The time between two world wars was hard with money, but new ideas and things were also happening.",
+                "ELI12": "The Interwar Period was marked by challenges like economic struggles and political changes, leading to another world war.",
+                "ELI16": "Complex economic, political, and social dynamics defined the Interwar Period, setting the world on a path toward another major conflict.",
+                "ELI25": "The Interwar Period's intricate economic downturns, political realignments, and technological advancements shaped the geopolitical landscape, leading inevitably to World War II."
+              }
+            },
+            {
+              "lesson_id": "20thcent_3",
+              "title": "World War II",
+              "summary_ELI5": "World War II was a big war where many countries fought against each other, like teams. It started because some countries wanted more power.",
+              "summary_ELI12": "World War II was a global conflict from 1939 to 1945 involving most of the world's nations. It started because countries like Germany and Japan wanted to expand and control more land.",
+              "summary_ELI16": "World War II was a global military conflict that lasted from 1939 to 1945, involving most of the world's nations. It was sparked by aggressive actions from Nazi Germany and its allies, aiming to expand their territories.",
+              "summary_ELI25": "World War II, occurring from 1939 to 1945, was a comprehensive conflict that engaged all major world powers and numerous countries in extensive battles across Europe, Asia, and the Pacific. Triggered by geopolitical and ideological tensions, notably due to Nazi Germany's expansionist policies, it reshaped global alliances and led to significant post-war changes.",
+              "bites": [
+                {
+                  "bite_id": "20thcent_3_b1",
+                  "explanations": {
+                    "ELI5": "World War II started because some countries wanted to take land from others.",
+                    "ELI12": "The war began when Germany, led by Adolf Hitler, invaded Poland in 1939, wanting more power and land.",
+                    "ELI16": "World War II's origins lie in the aggressive policies of Nazi Germany under Adolf Hitler, who invaded Poland in 1939, prompting Britain and France to declare war.",
+                    "ELI25": "The onset of WWII was marked by Nazi Germany's invasion of Poland on September 1, 1939, following a series of expansions and annexations in Europe, driven by Adolf Hitler’s ambition for German dominance."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b2",
+                  "explanations": {
+                    "ELI5": "There were two main groups fighting: the Axis and the Allies.",
+                    "ELI12": "The two main sides in World War II were the Axis, including Germany, Italy, and Japan, and the Allies, including the US, UK, and USSR.",
+                    "ELI16": "The Axis Powers, consisting mainly of Germany, Italy, and Japan, fought against the Allies, including the major powers of the United States, Soviet Union, and the United Kingdom.",
+                    "ELI25": "World War II featured the Axis Powers, chiefly Nazi Germany, Fascist Italy, and Imperial Japan, in opposition to the Allies, a coalition led by the United States, the Soviet Union, and the United Kingdom, among other nations."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b3",
+                  "explanations": {
+                    "ELI5": "A big battle was called D-Day, where soldiers landed on beaches to fight.",
+                    "ELI12": "D-Day was a major battle where Allied soldiers landed on Normandy's beaches in France to push back the Germans.",
+                    "ELI16": "D-Day, June 6, 1944, was a major turning point in World War II, with Allied forces launching a massive invasion on Normandy's beaches in France to begin liberating Europe from Nazi control.",
+                    "ELI25": "Operation Overlord, known as D-Day on June 6, 1944, was a critical Allied operation where forces landed on Normandy beaches, marking the start of the liberation of Western Europe from Nazi occupation."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b4",
+                  "explanations": {
+                    "ELI5": "A powerful weapon, the atomic bomb, ended the war in Japan.",
+                    "ELI12": "The United States dropped two atomic bombs on Japan in 1945 to end the war, causing Japan to surrender.",
+                    "ELI16": "The use of atomic bombs by the United States on Hiroshima and Nagasaki in August 1945 led to Japan's surrender, marking the end of World War II in the Pacific.",
+                    "ELI25": "The deployment of atomic bombs on Hiroshima (August 6) and Nagasaki (August 9) in 1945 by the United States expedited Japan's surrender, signaling the conclusion of World War II, amid debates about ethical and strategic implications."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b5",
+                  "explanations": {
+                    "ELI5": "Millions of people were hurt or lost their lives in the war.",
+                    "ELI12": "World War II led to massive casualties, with millions of soldiers and civilians dying due to battles and bombings.",
+                    "ELI16": "The devastation of World War II resulted in approximately 70 to 85 million fatalities, making it one of the deadliest conflicts in history, affecting soldiers and civilians globally.",
+                    "ELI25": "World War II, one of history's most destructive conflicts, caused an estimated 70 to 85 million fatalities, including widespread civilian casualties due to bombings, genocides, and war-related famines."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b6",
+                  "explanations": {
+                    "ELI5": "The Holocaust was one of the saddest parts of the war, where many were killed.",
+                    "ELI12": "The Holocaust was the genocide where the Nazis killed six million Jews, along with others deemed undesirable.",
+                    "ELI16": "During World War II, the Holocaust saw the systematic genocide by Nazi Germany of six million Jews and millions of other persecuted groups, orchestrated primarily via concentration camps.",
+                    "ELI25": "The Holocaust, a horrific component of WWII, entailed genocide orchestrated by the Nazi regime, systematically exterminating six million Jews and millions of others, through mechanisms like concentration camps and mass shootings."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_3_b7",
+                  "explanations": {
+                    "ELI5": "After the war, countries worked to keep the peace and not fight again.",
+                    "ELI12": "At the war's end, countries formed the United Nations to ensure peace and prevent another global conflict.",
+                    "ELI16": "Concluding World War II, nations established the United Nations in 1945 as a platform to foster international cooperation and prevent future global conflicts.",
+                    "ELI25": "In the aftermath of WWII, the formation of the United Nations in 1945 was pivotal in fostering international cooperation and creating structures aimed at preventing the recurrence of global conflicts, emphasizing diplomacy and conflict resolution."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "20thcent_3_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Which big event started World War II?",
+                    "ELI12": "What invasion marked the beginning of World War II?",
+                    "ELI16": "Which country's invasion initiated World War II?",
+                    "ELI25": "What geopolitical event triggered the onset of World War II in 1939?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "The moon landing",
+                      "Germany attacking Poland",
+                      "Titanic sinking"
+                    ],
+                    "ELI12": [
+                      "Japan bombing Pearl Harbor",
+                      "Germany's invasion of Poland",
+                      "Italy invading Greece"
+                    ],
+                    "ELI16": [
+                      "Germany's invasion of Poland",
+                      "Japan's attack on China",
+                      "Italy's invasion of Albania"
+                    ],
+                    "ELI25": [
+                      "Germany's invasion of Poland",
+                      "France's Maginot Line operation",
+                      "Soviet invasion of Finland"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_3_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who were the 'bad guys' group?",
+                    "ELI12": "Who made up the Axis Powers?",
+                    "ELI16": "Which nations constituted the Axis Powers in WWII?",
+                    "ELI25": "Identify the primary Axis Powers during World War II."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Allies",
+                      "Axis",
+                      "UN"
+                    ],
+                    "ELI12": [
+                      "Allies",
+                      "Axis Powers",
+                      "NATO"
+                    ],
+                    "ELI16": [
+                      "NATO",
+                      "Axis Powers: Germany, Italy, Japan",
+                      "League of Nations"
+                    ],
+                    "ELI25": [
+                      "Axis Powers: Germany, Italy, Japan",
+                      "OECD nations",
+                      "Allied Powers"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_3_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What was D-Day about?",
+                    "ELI12": "What was the purpose of D-Day?",
+                    "ELI16": "Describe the significance of D-Day in WWII.",
+                    "ELI25": "What was the strategic importance of D-Day in the context of World War II?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A picnic",
+                      "A big battle on the beach",
+                      "A holiday"
+                    ],
+                    "ELI12": [
+                      "A battle in Normandy to liberate France",
+                      "A conference of Allied leaders",
+                      "A naval parade"
+                    ],
+                    "ELI16": [
+                      "Launching an invasion on Normandy to begin freeing occupied France",
+                      "Aerial bombings over Berlin",
+                      "Peace talks with Japan"
+                    ],
+                    "ELI25": [
+                      "A coordinated invasion of Normandy to establish a Western Front against Nazi Germany",
+                      "Atomic bomb testing",
+                      "Naval blockade against Japan"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_3_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did the atomic bomb do?",
+                    "ELI12": "What was the result of dropping the atomic bomb?",
+                    "ELI16": "How did the atomic bomb influence the end of WWII?",
+                    "ELI25": "What were the geopolitical outcomes of the atomic bomb usage in WWII?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Sent people to space",
+                      "Ended the war in Japan",
+                      "Created a lot of noise"
+                    ],
+                    "ELI12": [
+                      "Caused Japan to surrender and end the war",
+                      "Led to the start of the Cold War",
+                      "Triggered more battles"
+                    ],
+                    "ELI16": [
+                      "Prompted Japan's surrender, ending the conflict in the Pacific",
+                      "Accelerated armament races",
+                      "Established Japan as a superpower"
+                    ],
+                    "ELI25": [
+                      "Compelled Japan's unconditional surrender, concluding WWII nominally with broader political implications for post-war restructuring",
+                      "Brought swift peace globally",
+                      "Started World War III"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 0,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_3_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What did people create to keep peace after the war?",
+                    "ELI12": "What organization was formed after WWII to maintain peace?",
+                    "ELI16": "What was the purpose of forming the United Nations post-WWII?",
+                    "ELI25": "How did the establishment of the United Nations aim to address international conflicts post-WWII?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A toy club",
+                      "United Nations",
+                      "A new game"
+                    ],
+                    "ELI12": [
+                      "European Union",
+                      "United Nations",
+                      "NATO"
+                    ],
+                    "ELI16": [
+                      "To mediate international disputes and foster peace",
+                      "Encourage nuclear disarmament",
+                      "Develop economic alliances"
+                    ],
+                    "ELI25": [
+                      "Promote diplomatic resolutions to conflicts, uphold international law, and prevent future global conflicts through cooperative mechanisms",
+                      "Expand military alliances",
+                      "Ensure control of nuclear weapons by any singular nation"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 1,
+                    "ELI12": 1,
+                    "ELI16": 0,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "World War II was a very big fight between many countries. After it, people made the UN to keep peace.",
+                "ELI12": "World War II was a global conflict where many countries fought, and after the war, the United Nations was created to maintain peace and prevent future wars.",
+                "ELI16": "World War II reshaped global politics and society, ending with the formation of the United Nations to ensure that such a devastating global conflict would not happen again.",
+                "ELI25": "The extensive impact of World War II reshaped geopolitical landscapes, leading to the formation of the United Nations as a conduit for international cooperation, aiming to curtail the recurrence of global warfare and manage conflicts through diplomatic measures."
+              }
+            },
+            {
+              "lesson_id": "20thcent_4",
+              "title": "Cold War",
+              "summary_ELI5": "The Cold War was a time when two big countries, the USA and the USSR, didn't get along but didn't fight directly.",
+              "summary_ELI12": "The Cold War was a period after World War II when the United States and the Soviet Union were rivals. They competed in many areas, like who could build better technology, but they never actually fought each other directly.",
+              "summary_ELI16": "During the Cold War, the United States and the Soviet Union were in a tense stand-off, marked by political disagreements, military advancements, and competitions like the Space Race. Despite the tension, they avoided direct military conflict, opting instead for proxy wars and strategic maneuvering.",
+              "summary_ELI25": "The Cold War was characterized by ideological struggles between capitalism led by the United States and communism under the Soviet Union. It involved various forms of competition, including nuclear arms races, technological trials, especially in space exploration, and proxy wars in third-party nations. The lack of direct warfare was maintained through a strategy of deterrence and complex geopolitical maneuvers.",
+              "bites": [
+                {
+                  "bite_id": "20thcent_4_b1",
+                  "explanations": {
+                    "ELI5": "The US and USSR were like kids on a playground who didn't like each other but never fought.",
+                    "ELI12": "The US and USSR were superpowers with different ideas – capitalism vs. communism. They didn't fight directly but often disagreed and competed.",
+                    "ELI16": "The Cold War saw the US and USSR as global superpowers clashing ideologically without direct conflict. Their tensions spurred proxy wars and various global alignments.",
+                    "ELI25": "The ideological battle between capitalism and communism led by the US and USSR respectively resulted in the Cold War. They avoided direct conflict but engaged in indirect confrontations and influenced global politics."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b2",
+                  "explanations": {
+                    "ELI5": "The Space Race was like a competition to see who could reach the moon first.",
+                    "ELI12": "During the Cold War, the US and USSR tried to outdo each other by sending rockets and astronauts into space, which was called the Space Race.",
+                    "ELI16": "The Space Race was a prominent part of the Cold War. The US and USSR competed to achieve space milestones, exemplified by the USSR’s Sputnik and the US's moon landing.",
+                    "ELI25": "The Space Race epitomized Cold War competition as the US and USSR vied for space exploration supremacy. This technological rivalry symbolized the broader struggle between their contrasting ideologies."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b3",
+                  "explanations": {
+                    "ELI5": "Nuclear bombs are super dangerous weapons both sides had but never used.",
+                    "ELI12": "Both the US and USSR had nuclear weapons. They scared each other with these powerful bombs but never used them because it could have been disastrous.",
+                    "ELI16": "The Cold War era was marked by a nuclear arms race, where both superpowers amassed weapons as a deterrent, culminating in a balance of terror known as 'Mutually Assured Destruction'.",
+                    "ELI25": "The principle of 'Mutually Assured Destruction' defined the Cold War nuclear arms race, as the US and USSR developed massive arsenals to deter each other from engaging in direct conflict."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b4",
+                  "explanations": {
+                    "ELI5": "Countries chose sides like you pick teams for a game, some with the US, some with the USSR.",
+                    "ELI12": "During the Cold War, countries around the world often sided with either the US or the USSR, forming alliances that divided the globe into two main camps.",
+                    "ELI16": "The Cold War resulted in geopolitical division, where countries allied with the US or USSR, forming NATO and the Warsaw Pact, thus establishing blocs based on ideological leanings.",
+                    "ELI25": "The bipolar world order during the Cold War was characterized by alliances such as NATO and the Warsaw Pact, aligning countries with either the US's liberal democracies or the USSR's communist bloc."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b5",
+                  "explanations": {
+                    "ELI5": "Sometimes the US and USSR would help other countries fight, instead of fighting themselves.",
+                    "ELI12": "The US and USSR fought indirectly by supporting opposing sides in local wars around the world, like in Korea and Vietnam.",
+                    "ELI16": "Proxy wars were a staple of the Cold War, as the US and USSR supported opposing factions in regional conflicts to exert influence without direct confrontation, exemplified by the Korean and Vietnam Wars.",
+                    "ELI25": "The Cold War proxy conflicts, such as those in Korea and Vietnam, involved indirect confrontations where the US and USSR supported opposing forces, maintaining diplomatic influence while avoiding direct warfare."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b6",
+                  "explanations": {
+                    "ELI5": "People were worried and scared because no one knew what would happen next.",
+                    "ELI12": "The Cold War was a tense time. People worried about nuclear war and often practiced drills at school or work.",
+                    "ELI16": "The pervasive fear of nuclear war during the Cold War led to public anxiety and civil defense measures, underscored by events like the Cuban Missile Crisis which highlighted the risk of escalation.",
+                    "ELI25": "The Cold War-induced fear was palpable in public consciousness, with nuclear anxieties driving civil defense strategies and influencing foreign policy, notably during crises like the Cuban Missile Crisis."
+                  }
+                },
+                {
+                  "bite_id": "20thcent_4_b7",
+                  "explanations": {
+                    "ELI5": "Eventually, everybody decided to be friends, and the Cold War ended.",
+                    "ELI12": "The Cold War ended when people in the USSR wanted changes, leading to better relations and agreements between the US and USSR.",
+                    "ELI16": "The Cold War concluded as internal pressures for political reform in the USSR, like Gorbachev's glasnost and perestroika, led to the dissolution of Soviet influence, reducing East-West tension.",
+                    "ELI25": "The Cold War's conclusion was marked by the collapse of the Soviet Union, precipitated by domestic reform initiatives and a shift in US-Soviet relations, highlighting the decline of communist dominance."
+                  }
+                }
+              ],
+              "quizzes": [
+                {
+                  "quiz_id": "20thcent_4_q1",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What was the Cold War mainly about?",
+                    "ELI12": "What was the main reason behind the Cold War tensions?",
+                    "ELI16": "What ideological clash primarily drove the Cold War?",
+                    "ELI25": "Which two ideologies were in conflict during the Cold War era?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "A big fight with no direct battles",
+                      "A teamwork project",
+                      "A holiday celebration"
+                    ],
+                    "ELI12": [
+                      "Sport competition",
+                      "Ideological disagreement",
+                      "A shared exploration project"
+                    ],
+                    "ELI16": [
+                      "Communism vs. Fascism",
+                      "Capitalism vs. Communism",
+                      "Socialism vs. Democracy"
+                    ],
+                    "ELI25": [
+                      "Nationalism and Globalism",
+                      "Capitalism and Communism",
+                      "Monarchism and Republicanism"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 1,
+                    "ELI25": 1
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_4_q2",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Who were the two main parties in the Cold War?",
+                    "ELI12": "What were the names of the superpowers during the Cold War?",
+                    "ELI16": "Which two superpower nations were primarily involved in the Cold War?",
+                    "ELI25": "Identify the two principal states engaged in the Cold War geopolitical strategy."
+                  },
+                  "options": {
+                    "ELI5": [
+                      "USA and USSR",
+                      "USA and France",
+                      "China and USSR"
+                    ],
+                    "ELI12": [
+                      "USA and China",
+                      "USA and USSR",
+                      "UK and Germany"
+                    ],
+                    "ELI16": [
+                      "United Kingdom and USSR",
+                      "USA and Japan",
+                      "USA and USSR"
+                    ],
+                    "ELI25": [
+                      "United States and the Soviet Union",
+                      "France and Germany",
+                      "China and Japan"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 1,
+                    "ELI16": 2,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_4_q3",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "What kept the Cold War from becoming a real fight?",
+                    "ELI12": "What strategy helped prevent the Cold War from turning into an actual armed conflict?",
+                    "ELI16": "Which concept prevented the superpowers from engaging in a full-scale war during the Cold War?",
+                    "ELI25": "What was the deterrent principle that averted active military conflict during the Cold War?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Superheroes stopped them",
+                      "Fear of losing",
+                      "Nobody wanted to start it"
+                    ],
+                    "ELI12": [
+                      "Hoping for peace",
+                      "Promise to be friends",
+                      "Fear of nuclear disaster"
+                    ],
+                    "ELI16": [
+                      "Appeasement",
+                      "Mutually Assured Destruction",
+                      "Proxy diplomacy"
+                    ],
+                    "ELI25": [
+                      "Mutually Assured Destruction",
+                      "Brinkmanship",
+                      "Containment"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 2,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_4_q4",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "Which side did the USA support?",
+                    "ELI12": "What type of government did the USA promote during the Cold War?",
+                    "ELI16": "Which ideology did the United States advocate for during the Cold War?",
+                    "ELI25": "Which political and economic framework was championed by the USA against communism?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Communism",
+                      "Kingdoms",
+                      "Democracy"
+                    ],
+                    "ELI12": [
+                      "Dictatorship",
+                      "Communism",
+                      "Capitalism and Democracy"
+                    ],
+                    "ELI16": [
+                      "Communism",
+                      "Socialism",
+                      "Capitalism and Liberalism"
+                    ],
+                    "ELI25": [
+                      "Capitalist Democracy",
+                      "Authoritarianism",
+                      "Feudalism"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 2,
+                    "ELI12": 2,
+                    "ELI16": 2,
+                    "ELI25": 0
+                  }
+                },
+                {
+                  "quiz_id": "20thcent_4_q5",
+                  "type": "multiple_choice",
+                  "questions": {
+                    "ELI5": "How did the Cold War end?",
+                    "ELI12": "What led to the end of the Cold War?",
+                    "ELI16": "Which event symbolizes the end of the Cold War?",
+                    "ELI25": "What transformations within the Soviet Union contributed to the end of the Cold War?"
+                  },
+                  "options": {
+                    "ELI5": [
+                      "Everybody made friends",
+                      "More countries joined",
+                      "A new war started"
+                    ],
+                    "ELI12": [
+                      "USSR changes and peace talks",
+                      "New space race",
+                      "Another war"
+                    ],
+                    "ELI16": [
+                      "Cuban Missile Crisis",
+                      "Fall of the Berlin Wall",
+                      "Gulf War"
+                    ],
+                    "ELI25": [
+                      "Gorbachev's reforms and subsequent political openness",
+                      "Soviet military expansion",
+                      "US economic aid"
+                    ]
+                  },
+                  "correct_answers": {
+                    "ELI5": 0,
+                    "ELI12": 0,
+                    "ELI16": 1,
+                    "ELI25": 0
+                  }
+                }
+              ],
+              "wrap_up": {
+                "ELI5": "The Cold War was like when two kids didn't get along and tried to have the biggest group on the playground but never actually fought.",
+                "ELI12": "The Cold War involved the US and USSR as rivals who never directly fought but competed fiercely in areas like space and technology, while also impacting different countries around the world.",
+                "ELI16": "In a global power struggle defined by nuclear arms and ideological contrast, the Cold War was a period of significant tension between the US and USSR, yet marked by indirect conflicts and strategic shifts that eventually led to a peaceful resolution.",
+                "ELI25": "The Cold War epitomized a period of geopolitical tension marked by ideological rivalry, nuclear deterrence, and indirect confrontations, ending with the dissolution of the USSR. This period shaped significant international strategies and global power alignments that reshaped modern history."
+              }
             }
           ]
         }
