@@ -219,8 +219,8 @@ for subject_file in curriculum_folder.glob("*.json"):
     with subject_file.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    if subject_file.stem != "bio":
-        continue
+    # if subject_file.stem != "bio":
+    #     continue
 
     subject = data["subjects"][0]
     for course in subject["courses"]:
