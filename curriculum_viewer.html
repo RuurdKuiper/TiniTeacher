@@ -20,6 +20,7 @@ select, button { margin: 5px; padding: 5px; }
 .menu-btn {
   text-align: center;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .menu-btn img {
   display: flex;
@@ -30,59 +31,32 @@ select, button { margin: 5px; padding: 5px; }
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   transition: transform 0.2s;
 }
-
-.menu-btn.subject img {
-  width: 100px;
-  height: 100px;
-}
-
+.menu-btn.subject img { width: 100px; height: 100px; }
 .menu-btn.course img,
 .menu-btn.lesson img,
-.menu-btn.level img {
-  width: 80px;
-  height: 80px;
-}
-
-.menu-btn img:hover {
-  transform: scale(1.05);
-}
-
-/* .menu-btn span {
-  display: block;
-  margin-top: 5px;
-  font-weight: 500;
-  font-size: 12px;   
-  max-width: 100px;
-  word-wrap: break-word;
-  text-overflow: ellipsis; 
-  overflow: hidden;
-} */
+.menu-btn.level img { width: 80px; height: 80px; }
+.menu-btn img:hover { transform: scale(1.05); }
 
 .menu-btn span {
   display: block;
   margin-top: 5px;
   font-weight: 500;
-  font-size: 12px;   /* 👈 change size here */
+  font-size: 12px;
   max-width: 80px;
   word-wrap: break-word;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   overflow: hidden;
 }
+.menu-btn.subject span { font-size: 14px; max-width: 100px; }
 
-
-.menu-btn.subject span { 
-  font-size: 14px;
-  max-width: 100px;
-  word-wrap: break-word;
-  text-overflow: ellipsis; 
-  overflow: hidden;
+.menu-btn.selected {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border-radius: 8px;
 }
-
 </style>
 </head>
 <body>
-
-<!-- Removed "Curriculum Viewer" heading -->
 
 <!-- Subject / Course / Lesson Rows -->
 <div id="subject-row" class="menu-row"></div>
@@ -109,10 +83,9 @@ let biteIndex = 0;
 let quizIndex = 0;
 let inQuiz = false;
 
-// Levels list
-const levels = ['ELI5', 'ELI12', 'ELI16', 'ELI25'];
+const levels = ['ELI5','ELI12','ELI16','ELI25'];
 
-// Load subjects dynamically from multiple JSON files
+// Load subjects dynamically
 async function loadSubjects() {
     const subjectFiles = [
         'generated_curriculum/bio.json',
@@ -126,44 +99,39 @@ async function loadSubjects() {
     ];
 
     curriculum = { subjects: [] };
-
     for (const file of subjectFiles) {
-        const response = await fetch(file);
-        const data = await response.json();
-        const subj = data.subjects[0]; // Each file has one subject
-        curriculum.subjects.push(subj);
+        const data = await (await fetch(file)).json();
+        curriculum.subjects.push(data.subjects[0]);
     }
 
-    renderSubjects(curriculum);
+    renderSubjects();
     renderLevels();
 }
 
 // Render subject buttons
-function renderSubjects(curriculum) {
+function renderSubjects() {
     const row = document.getElementById('subject-row');
     row.innerHTML = '';
     curriculum.subjects.forEach(sub => {
-        const iconPath = `images/${sub.short}/${sub.short}_icon.png`;
         const btn = document.createElement('div');
-        btn.className = 'menu-btn subject';
+        btn.className = 'menu-btn subject' + (currentSubject===sub?' selected':'');
         const img = document.createElement('img');
-        img.src = iconPath;
+        img.src = `images/${sub.short}/${sub.short}_icon.png`;
         img.alt = `${sub.name} icon`;
-        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
-        const span = document.createElement('span');
-        span.textContent = sub.name;
-        btn.appendChild(img);
-        btn.appendChild(span);
+        img.onerror = function(){ this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span'); span.textContent = sub.name;
+        btn.appendChild(img); btn.appendChild(span);
         btn.onclick = () => {
             currentSubject = sub;
-            
-            // Clear all lower layers
+            currentCourse = null;
+            currentLesson = null;
+            // clear lower layers
             document.getElementById('course-row').innerHTML = '';
             document.getElementById('course-row').classList.add('hidden');
             document.getElementById('lesson-row').innerHTML = '';
             document.getElementById('lesson-row').classList.add('hidden');
             document.getElementById('lesson-container').classList.add('hidden');
-
+            renderSubjects();
             renderCourses(sub);
         };
         row.appendChild(btn);
@@ -174,55 +142,46 @@ function renderSubjects(curriculum) {
 function renderCourses(subject) {
     const row = document.getElementById('course-row');
     row.innerHTML = '';
-    document.getElementById('lesson-row').classList.add('hidden');
     subject.courses.forEach(c => {
-        const iconPath = `images/${subject.short}/${c.short}/${c.short}_icon.png`;
         const btn = document.createElement('div');
-        btn.className = 'menu-btn course';
+        btn.className = 'menu-btn course' + (currentCourse===c?' selected':'');
         const img = document.createElement('img');
-        img.src = iconPath;
+        img.src = `images/${subject.short}/${c.short}/${c.short}_icon.png`;
         img.alt = `${c.title} icon`;
-        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
-        const span = document.createElement('span');
-        span.textContent = c.title;
-        btn.appendChild(img);
-        btn.appendChild(span);
+        img.onerror = function(){ this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span'); span.textContent = c.title;
+        btn.appendChild(img); btn.appendChild(span);
         btn.onclick = () => {
             currentCourse = c;
-
-            // Clear lower layers
+            currentLesson = null;
             document.getElementById('lesson-row').innerHTML = '';
             document.getElementById('lesson-row').classList.add('hidden');
             document.getElementById('lesson-container').classList.add('hidden');
-
-            renderLessons(subject, c);
+            renderCourses(subject);
+            renderLessons(subject,c);
         };
         row.appendChild(btn);
     });
     row.classList.remove('hidden');
 }
 
-// Render lesson buttons with icons
+// Render lesson buttons
 function renderLessons(subject, course) {
     const row = document.getElementById('lesson-row');
     row.innerHTML = '';
-    course.lessons.forEach((lesson) => {
-        const iconPath = `images/${subject.short}/${course.short}/${lesson.lesson_id}_icon.png`;
+    course.lessons.forEach(lesson => {
         const btn = document.createElement('div');
-        btn.className = 'menu-btn lesson';
+        btn.className = 'menu-btn lesson' + (currentLesson===lesson?' selected':'');
         const img = document.createElement('img');
-        img.src = iconPath;
+        img.src = `images/${subject.short}/${course.short}/${lesson.lesson_id}_icon.png`;
         img.alt = `${lesson.title} icon`;
-        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
-        const span = document.createElement('span');
-        span.textContent = lesson.title;
-        btn.appendChild(img);
-        btn.appendChild(span);
+        img.onerror = function(){ this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span'); span.textContent = lesson.title;
+        btn.appendChild(img); btn.appendChild(span);
         btn.onclick = () => {
             currentLesson = lesson;
-            biteIndex = 0;
-            quizIndex = 0;
-            inQuiz = false;
+            biteIndex = 0; quizIndex = 0; inQuiz=false;
+            renderLessons(subject,course);
             document.getElementById('lesson-container').classList.remove('hidden');
             renderLesson();
         };
@@ -236,118 +195,69 @@ function renderLevels() {
     const row = document.getElementById('level-row');
     row.innerHTML = '';
     levels.forEach(level => {
-        const iconPath = `images/${level}_icon.png`;
         const btn = document.createElement('div');
-        btn.className = 'menu-btn level';
+        btn.className = 'menu-btn level' + (currentLevel===level?' selected':'');
         const img = document.createElement('img');
-        img.src = iconPath;
+        img.src = `images/${level}_icon.png`;
         img.alt = `${level} icon`;
-        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
-        const span = document.createElement('span');
-        span.textContent = level;
-        btn.appendChild(img);
-        btn.appendChild(span);
+        img.onerror = function(){ this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span'); span.textContent = level;
+        btn.appendChild(img); btn.appendChild(span);
         btn.onclick = () => {
             currentLevel = level;
-            if (currentLesson) renderLesson();
+            renderLevels();
+            if(currentLesson) renderLesson();
         };
         row.appendChild(btn);
     });
 }
 
-// Render the current bite or quiz
+// Render current bite or quiz
 function renderLesson() {
     const biteContainer = document.getElementById('bite-container');
     const quizContainer = document.getElementById('quiz-container');
-
-    if (!inQuiz) {
+    if(!inQuiz) {
         const bite = currentLesson.bites[biteIndex];
         const explanation = bite.explanations[currentLevel];
-
         const imgPath = `images/${currentSubject.short}/${currentCourse.short}/${bite.bite_id}.png`;
-
-        biteContainer.innerHTML = `
-            <div class="bite">
-                <strong>Bite ${biteIndex + 1}:</strong>
-                <p>${explanation}</p>
-                <img src="${imgPath}" alt="Illustration" 
-                     style="max-width:300px; display:block; margin-top:10px;" 
-                     onerror="this.style.display='none'">
-            </div>
-        `;
+        biteContainer.innerHTML = `<div class="bite"><strong>Bite ${biteIndex+1}:</strong><p>${explanation}</p><img src="${imgPath}" style="max-width:300px;margin-top:10px;" onerror="this.style.display='none'"></div>`;
         quizContainer.classList.add('hidden');
     } else {
         const quiz = currentLesson.quizzes[quizIndex];
-        let optionsHTML = '';
-        quiz.options[currentLevel].forEach((o, i) => {
-            optionsHTML += `<label><input type="radio" name="quiz" value="${i}"> ${o}</label><br>`;
-        });
-
-        quizContainer.innerHTML = `
-            <div class="quiz">
-                <strong>Quiz ${quizIndex + 1}:</strong>
-                <p>${quiz.questions[currentLevel]}</p>
-                ${optionsHTML}
-                <div id="feedback" style="margin-top:5px;font-weight:bold;"></div>
-            </div>
-        `;
+        let optionsHTML='';
+        quiz.options[currentLevel].forEach((o,i)=>{ optionsHTML+=`<label><input type="radio" name="quiz" value="${i}"> ${o}</label><br>`; });
+        quizContainer.innerHTML = `<div class="quiz"><strong>Quiz ${quizIndex+1}:</strong><p>${quiz.questions[currentLevel]}</p>${optionsHTML}<div id="feedback" style="margin-top:5px;font-weight:bold;"></div></div>`;
         quizContainer.classList.remove('hidden');
-        biteContainer.innerHTML = '';
-
-        // Add immediate feedback
-        document.querySelectorAll('input[name="quiz"]').forEach(input => {
-            input.addEventListener('change', function() {
-                const feedbackDiv = document.getElementById('feedback');
-                const selected = parseInt(this.value);
-                const correct = quiz.correct_answers[currentLevel];
-                if (selected === correct) {
-                    feedbackDiv.textContent = "Correct!";
-                    feedbackDiv.style.color = "green";
-                } else {
-                    feedbackDiv.textContent = `Incorrect. Correct answer: ${quiz.options[currentLevel][correct]}`;
-                    feedbackDiv.style.color = "red";
-                }
+        biteContainer.innerHTML='';
+        document.querySelectorAll('input[name="quiz"]').forEach(input=>{
+            input.addEventListener('change',function(){
+                const feedbackDiv=document.getElementById('feedback');
+                const selected=parseInt(this.value);
+                const correct=quiz.correct_answers[currentLevel];
+                feedbackDiv.textContent=(selected===correct)?"Correct!":`Incorrect. Correct answer: ${quiz.options[currentLevel][correct]}`;
+                feedbackDiv.style.color=(selected===correct)?"green":"red";
             });
         });
     }
 }
 
 // Next / Previous buttons
-document.getElementById('next-btn').addEventListener('click', () => {
-    if (!currentLesson) return;
-    if (!inQuiz) {
-        if (biteIndex < currentLesson.bites.length - 1) {
-            biteIndex++;
-        } else {
-            inQuiz = true;
-            quizIndex = 0;
-        }
-    } else {
-        if (quizIndex < currentLesson.quizzes.length - 1) {
-            quizIndex++;
-        } else return; // end of lesson
-    }
+document.getElementById('next-btn').addEventListener('click',()=>{
+    if(!currentLesson) return;
+    if(!inQuiz){
+        if(biteIndex<currentLesson.bites.length-1){ biteIndex++; }
+        else{ inQuiz=true; quizIndex=0; }
+    } else { if(quizIndex<currentLesson.quizzes.length-1){ quizIndex++; } else return; }
+    renderLesson();
+});
+document.getElementById('prev-btn').addEventListener('click',()=>{
+    if(!currentLesson) return;
+    if(inQuiz){ if(quizIndex>0){ quizIndex--; } else{ inQuiz=false; biteIndex=currentLesson.bites.length-1; } }
+    else{ if(biteIndex>0) biteIndex--; }
     renderLesson();
 });
 
-document.getElementById('prev-btn').addEventListener('click', () => {
-    if (!currentLesson) return;
-    if (inQuiz) {
-        if (quizIndex > 0) {
-            quizIndex--;
-        } else {
-            inQuiz = false;
-            biteIndex = currentLesson.bites.length - 1;
-        }
-    } else {
-        if (biteIndex > 0) biteIndex--;
-    }
-    renderLesson();
-});
-
-// Kick things off
 loadSubjects();
 </script>
-
 </body>
 </html>
