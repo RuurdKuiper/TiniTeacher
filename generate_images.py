@@ -15,18 +15,25 @@ curriculum_folder = Path("generated_curriculum")
 image_folder = Path("images")
 image_folder.mkdir(exist_ok=True)
 
-def expand_icon_prompt(name: str, level: str) -> str:
+def expand_icon_prompt(name: str, level: str, parent: str | None = None) -> str:
     """
-    Create a simplified, icon-style prompt for subject or course.
-    Level is either 'subject' or 'course'.
+    Create a simplified, icon-style prompt.
+    level: 'subject', 'course', or 'lesson'
+    parent: optional parent heading (subject for course, course for lesson)
     """
-    return (
-        f"A clean, modern flat-style icon representing the {level} '{name}'. "
+    base = (
+        f"A clean, modern flat-style icon representing the {level} '{name}'. Please make the icon very specific to this {level}."
         "The design should be minimal, symbolic, and consistent in visual style. "
         "Use smooth vector-like shapes, bright but limited colors, soft shadows, "
         "and avoid text, numbers, or equations. "
         "It should look like an educational app icon, not a detailed scene."
     )
+    
+    if parent:
+        base += f" This {level} is part of the '{parent}' { 'subject' if level=='course' else 'course' }."
+    
+    return base
+
 
 
 def expand_prompt(explanation: str, subject: str, course: str, lesson: str) -> str:
@@ -90,7 +97,7 @@ def generate_image(prompt: str, out_path: Path):
             model="gpt-image-1",
             prompt=prompt,
             size="1024x1024",
-            quality="high"
+            quality="low"
         )
         image_base64 = result.data[0].b64_json
         image_bytes = base64.b64decode(image_base64)
@@ -122,20 +129,35 @@ for subject_file in curriculum_folder.glob("*.json"):
 
     subject = data["subjects"][0]
 
-    # --- Subject icon ---
+    # Subject icon
     subject_out = image_folder / subject["short"] / f"{subject['short']}_icon.png"
+    subject_out.parent.mkdir(parents=True, exist_ok=True)
     if not subject_out.exists():
         prompt = expand_icon_prompt(subject["name"], "subject")
-        print(f"Generating subject icon for {subject['name']} with prompt:\n{prompt}\n")
+        print(prompt)
         generate_image(prompt, subject_out)
 
-    # # --- Course icons ---
-    # for course in subject["courses"]:
-    #     course_out = image_folder / subject["short"] / course["short"] / f"{course['short']}_icon.png"
-    #     if not course_out.exists():
-    #         prompt = expand_icon_prompt(course["title"], "course")
-    #         print(f"Generating course icon for {course['title']} with prompt:\n{prompt}\n")
-    #         generate_image(prompt, course_out)
+    # Course icons
+    for course in subject["courses"]:
+        course_out = image_folder / subject["short"] / course["short"] / f"{course['short']}_icon.png"
+        course_out.parent.mkdir(parents=True, exist_ok=True)
+        if not course_out.exists():
+            prompt = expand_icon_prompt(course["title"], "course", parent=subject["name"])
+            print(prompt)
+            generate_image(prompt, course_out)
+
+        # Lesson icons
+        for lesson in course["lessons"]:
+            lesson_out = image_folder / subject["short"] / course["short"] / f"{lesson['lesson_id']}_icon.png"
+            lesson_out.parent.mkdir(parents=True, exist_ok=True)
+            if not lesson_out.exists():
+                prompt = expand_icon_prompt(lesson["title"], "lesson", parent=course["title"])
+                print(prompt)
+                generate_image(prompt, lesson_out)
+
+
+
+
 
 
 

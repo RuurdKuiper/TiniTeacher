@@ -22,39 +22,75 @@ select, button { margin: 5px; padding: 5px; }
   cursor: pointer;
 }
 .menu-btn img {
+  display: flex;
   width: 100px;
   height: 100px;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   transition: transform 0.2s;
 }
+
+.menu-btn.subject img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu-btn.course img,
+.menu-btn.lesson img,
+.menu-btn.level img {
+  width: 80px;
+  height: 80px;
+}
+
 .menu-btn img:hover {
   transform: scale(1.05);
 }
+
+/* .menu-btn span {
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 12px;   
+  max-width: 100px;
+  word-wrap: break-word;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+} */
+
 .menu-btn span {
   display: block;
   margin-top: 5px;
   font-weight: 500;
+  font-size: 12px;   /* 👈 change size here */
+  max-width: 80px;
+  word-wrap: break-word;
+  text-overflow: ellipsis; 
+  overflow: hidden;
 }
+
+
+.menu-btn.subject span { 
+  font-size: 14px;
+  max-width: 100px;
+  word-wrap: break-word;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+}
+
 </style>
 </head>
 <body>
 
-<h1>Curriculum Viewer</h1>
+<!-- Removed "Curriculum Viewer" heading -->
 
-<label for="level-select">Choose level:</label>
-<select id="level-select">
-    <option value="ELI5">ELI5</option>
-    <option value="ELI12">ELI12</option>
-    <option value="ELI16">ELI16</option>
-    <option value="ELI25">ELI25</option>
-</select>
-
-<!-- Replaced dropdowns with graphical rows -->
+<!-- Subject / Course / Lesson Rows -->
 <div id="subject-row" class="menu-row"></div>
 <div id="course-row" class="menu-row hidden"></div>
 <div id="lesson-row" class="menu-row hidden"></div>
+
+<!-- Level buttons -->
+<div id="level-row" class="menu-row"></div>
 
 <div id="lesson-container" class="hidden">
     <div id="bite-container"></div>
@@ -73,6 +109,9 @@ let biteIndex = 0;
 let quizIndex = 0;
 let inQuiz = false;
 
+// Levels list
+const levels = ['ELI5', 'ELI12', 'ELI16', 'ELI25'];
+
 // Load subjects dynamically from multiple JSON files
 async function loadSubjects() {
     const subjectFiles = [
@@ -82,7 +121,8 @@ async function loadSubjects() {
         'generated_curriculum/cs.json',
         'generated_curriculum/phys.json',
         'generated_curriculum/phil.json',
-        'generated_curriculum/geo.json'
+        'generated_curriculum/geo.json',
+        'generated_curriculum/hist.json'
     ];
 
     curriculum = { subjects: [] };
@@ -95,6 +135,7 @@ async function loadSubjects() {
     }
 
     renderSubjects(curriculum);
+    renderLevels();
 }
 
 // Render subject buttons
@@ -104,14 +145,25 @@ function renderSubjects(curriculum) {
     curriculum.subjects.forEach(sub => {
         const iconPath = `images/${sub.short}/${sub.short}_icon.png`;
         const btn = document.createElement('div');
-        btn.className = 'menu-btn';
-        btn.innerHTML = `
-            <img src="${iconPath}" alt="${sub.name} icon"
-                 onerror="this.src='images/placeholder.png'">
-            <span>${sub.name}</span>
-        `;
+        btn.className = 'menu-btn subject';
+        const img = document.createElement('img');
+        img.src = iconPath;
+        img.alt = `${sub.name} icon`;
+        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span');
+        span.textContent = sub.name;
+        btn.appendChild(img);
+        btn.appendChild(span);
         btn.onclick = () => {
             currentSubject = sub;
+            
+            // Clear all lower layers
+            document.getElementById('course-row').innerHTML = '';
+            document.getElementById('course-row').classList.add('hidden');
+            document.getElementById('lesson-row').innerHTML = '';
+            document.getElementById('lesson-row').classList.add('hidden');
+            document.getElementById('lesson-container').classList.add('hidden');
+
             renderCourses(sub);
         };
         row.appendChild(btn);
@@ -126,14 +178,23 @@ function renderCourses(subject) {
     subject.courses.forEach(c => {
         const iconPath = `images/${subject.short}/${c.short}/${c.short}_icon.png`;
         const btn = document.createElement('div');
-        btn.className = 'menu-btn';
-        btn.innerHTML = `
-            <img src="${iconPath}" alt="${c.title} icon"
-                 onerror="this.src='images/placeholder.png'">
-            <span>${c.title}</span>
-        `;
+        btn.className = 'menu-btn course';
+        const img = document.createElement('img');
+        img.src = iconPath;
+        img.alt = `${c.title} icon`;
+        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span');
+        span.textContent = c.title;
+        btn.appendChild(img);
+        btn.appendChild(span);
         btn.onclick = () => {
             currentCourse = c;
+
+            // Clear lower layers
+            document.getElementById('lesson-row').innerHTML = '';
+            document.getElementById('lesson-row').classList.add('hidden');
+            document.getElementById('lesson-container').classList.add('hidden');
+
             renderLessons(subject, c);
         };
         row.appendChild(btn);
@@ -141,13 +202,22 @@ function renderCourses(subject) {
     row.classList.remove('hidden');
 }
 
-// Render lesson buttons
+// Render lesson buttons with icons
 function renderLessons(subject, course) {
     const row = document.getElementById('lesson-row');
     row.innerHTML = '';
-    course.lessons.forEach((lesson, i) => {
-        const btn = document.createElement('button');
-        btn.textContent = lesson.title;
+    course.lessons.forEach((lesson) => {
+        const iconPath = `images/${subject.short}/${course.short}/${lesson.lesson_id}_icon.png`;
+        const btn = document.createElement('div');
+        btn.className = 'menu-btn lesson';
+        const img = document.createElement('img');
+        img.src = iconPath;
+        img.alt = `${lesson.title} icon`;
+        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span');
+        span.textContent = lesson.title;
+        btn.appendChild(img);
+        btn.appendChild(span);
         btn.onclick = () => {
             currentLesson = lesson;
             biteIndex = 0;
@@ -161,11 +231,29 @@ function renderLessons(subject, course) {
     row.classList.remove('hidden');
 }
 
-// Handle level changes
-document.getElementById('level-select').addEventListener('change', function() {
-    currentLevel = this.value;
-    if (currentLesson) renderLesson();
-});
+// Render level buttons
+function renderLevels() {
+    const row = document.getElementById('level-row');
+    row.innerHTML = '';
+    levels.forEach(level => {
+        const iconPath = `images/${level}_icon.png`;
+        const btn = document.createElement('div');
+        btn.className = 'menu-btn level';
+        const img = document.createElement('img');
+        img.src = iconPath;
+        img.alt = `${level} icon`;
+        img.onerror = function() { this.onerror=null; this.src='images/placeholder.png'; };
+        const span = document.createElement('span');
+        span.textContent = level;
+        btn.appendChild(img);
+        btn.appendChild(span);
+        btn.onclick = () => {
+            currentLevel = level;
+            if (currentLesson) renderLesson();
+        };
+        row.appendChild(btn);
+    });
+}
 
 // Render the current bite or quiz
 function renderLesson() {
