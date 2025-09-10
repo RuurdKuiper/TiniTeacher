@@ -53,14 +53,15 @@ def expand_prompt(explanation: str, subject: str, course: str, lesson: str) -> s
         "content": (
             "You are an expert educational illustrator prompt-writer. "
             "Your job is to take a short explanation of a concept and expand it "
-            "into a detailed prompt for an image generator. Describe very simple images, with minimal elements, and a clean, modern style."
-            "Do not describe complex scenes or a multitude of elements. "
+            "into a clear prompt for an image generator. Describe very simple, informative images, "
+            "with minimal elements, and a clean, modern style."
+            "Describe a simple scene with only one or a few elements. "
             "Always use this format:\n\n"
             "General Template:\n"
             "A modern, clean educational illustration in a consistent visual style. "
             "The image should use smooth shapes, soft shadows, and bright but limited colors. "
-            "Show the concept visually without text or labels, relying only on simple forms, and, only if really necessary, arrows, "
-            "and color coding. Avoid realism or childish style — keep it minimal, clear, and informative.\n"
+            "Show the concept visually without text or labels, relying only on simple forms, "
+            "and color coding. Avoid realism — keep it minimal, clear, and informative.\n"
             "Concept: <your detailed visual description of the concept here>\n\n"
             "Never include text, numbers, or equations inside the image."
         ),
@@ -112,7 +113,7 @@ def generate_image(prompt: str, out_path: Path, model_name: str):
                 model=model_name,
                 prompt=prompt,
                 size="1024x1024",
-                quality="low"
+                quality="medium"
             )
             image_base64 = result.data[0].b64_json
             image_bytes = base64.b64decode(image_base64)
@@ -166,7 +167,7 @@ def generate_image(prompt: str, out_path: Path, model_name: str):
 
 def create_prompt(subject, course, lesson, bite):
     """Ask GPT-4o to expand the explanation into a strong image prompt."""
-    explanation = bite["explanations"].get("ELI12") or bite["explanations"].get("ELI16")
+    explanation = bite["explanations"].get("ELI16") or bite["explanations"].get("ELI12")
     if not explanation:
         return None
     expanded = expand_prompt(explanation, subject["name"], course["title"], lesson["title"])
@@ -219,8 +220,8 @@ for subject_file in curriculum_folder.glob("*.json"):
     with subject_file.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # if subject_file.stem != "bio":
-    #     continue
+    if subject_file.stem != "hist":
+        continue
 
     subject = data["subjects"][0]
     for course in subject["courses"]:
