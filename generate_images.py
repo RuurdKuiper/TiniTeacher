@@ -241,11 +241,11 @@ for subject_file in curriculum_folder.glob("*.json"):
                     continue
 
                 generated = generate_image(prompt, out_path, image_generator_model)
-                if not generated:
-                    break
-            if not generated:
-                break
-        if not generated:
-            break
-    if not generated:
-        break
+    #             if not generated:
+    #                 break
+    #         if not generated:
+    #             break
+    #     if not generated:
+    #         break
+    # if not generated:
+    #     break
